@@ -23,7 +23,7 @@ Wedi’u cyfrif o’r cod ffynhonnell. Mae ffigurau profion yn cyfrif profion a 
 | Ffaith | Gwerth |
 |---|---|
 | Fersiwn y gwasanaeth | 0.1.0 |
-| Fersiwn y parwr | 0.5.0 |
+| Fersiwn y parwr | 0.6.0 |
 | Fersiwn y rhyngwyneb | 0.1.0 |
 | Mudiadau cronfa ddata | 24 |
 | Cofrestriadau llwybr | 70 |

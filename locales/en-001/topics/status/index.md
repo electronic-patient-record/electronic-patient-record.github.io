@@ -23,7 +23,7 @@ Counted from the source tree. Test figures count tests written, not tests passin
 | Fact | Value |
 |---|---|
 | Service version | 0.1.0 |
-| Matcher version | 0.5.0 |
+| Matcher version | 0.6.0 |
 | User interface version | 0.1.0 |
 | Database migrations | 24 |
 | Route registrations | 70 |

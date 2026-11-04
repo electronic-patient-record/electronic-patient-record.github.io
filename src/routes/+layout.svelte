@@ -1,18 +1,26 @@
 <script lang="ts">
 	import '#lib/site.css';
+	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import { AnnouncementBanner, Footer, Header, SkipLink } from '@lilydesignsystem/svelte-headless';
 	import PickerBar from '@lilydesignsystem/svelte-picker-bar';
-	import { blob, nav, REPO } from '#lib/site.ts';
+	import { ui } from '#lib/i18n.ts';
+	import { LOCALE_LABELS, LOCALES } from '#lib/locales.ts';
+	import { REPO } from '#lib/site.ts';
 	import { themes } from '#lib/themes.ts';
 
-	let { children } = $props();
+	let { children, data } = $props();
 
+	const t = $derived(ui(data.locale));
+	const links = $derived([
+		...data.nav.map((item) => ({ href: item.href, label: t.nav[item.name] })),
+		{ href: data.researchHref, label: t.nav.research }
+	]);
 	const encode = encodeURIComponent;
-	const shareTargets = [
+	const shareTargets = $derived([
 		{
 			id: 'email',
-			label: 'Email',
+			label: t.pickers.email,
 			href: (url: string, title: string) => `mailto:?subject=${encode(title)}&body=${encode(url)}`,
 			newTab: false
 		},
@@ -27,26 +35,33 @@
 			href: (url: string, title: string) =>
 				`https://bsky.app/intent/compose?text=${encode(`${title} ${url}`)}`
 		}
-	];
+	]);
+
+	// The picker reports the locale it applied, including the one this page is already in.
+	function changeLocale(code: string) {
+		if (code === data.locale) return;
+		goto(data.peers[code] ?? `/locales/${code}/`);
+	}
 </script>
 
-<SkipLink href="#content" label="Skip to content" />
+<SkipLink href="#content" label={t.skip} />
 
-<AnnouncementBanner label="Status notice" class="notice">
+<AnnouncementBanner label={t.statusLabel} class="notice">
 	<div class="site-width">
-		<p>Pre-release software. Not for clinical use. Do not enter real patient data.</p>
+		<p>{t.notice}</p>
+		{#if t.machineNotice}<p class="machine-notice">{t.machineNotice}</p>{/if}
 	</div>
 </AnnouncementBanner>
 
-<Header label="Site header" class="site-header">
+<Header label={t.headerLabel} class="site-header">
 	<div class="site-width">
-		<a class="site-name" href="/">Electronic Patient Record</a>
-		<nav class="site-nav" aria-label="Main">
+		<a class="site-name" href={data.home}>{t.brand}</a>
+		<nav class="site-nav" aria-label={t.mainNav}>
 			<ul>
-				{#each nav as item (item.href)}
+				{#each data.nav as item (item.name)}
 					<li>
 						<a href={item.href} aria-current={page.url.pathname === item.href ? 'page' : undefined}>
-							{item.label}
+							{t.nav[item.name]}
 						</a>
 					</li>
 				{/each}
@@ -54,28 +69,23 @@
 		</nav>
 		<PickerBar
 			class="site-pickers"
-			labels={{
-				link: 'Pages',
-				search: 'Search this site',
-				searchInput: 'Search terms',
-				searchSubmit: 'Search',
-				theme: 'Colour theme',
-				locale: 'Language',
-				timeZone: 'Time zone',
-				textSize: 'Text size',
-				share: 'Share'
-			}}
-			links={nav}
-			searchProps={{ action: '/search/', placeholder: 'Search this site' }}
+			labels={t.pickers}
+			{links}
+			searchProps={{ action: data.searchHref, placeholder: t.pickers.search }}
 			themesUrl="/themes/"
 			{themes}
 			themeProps={{ defaultValue: 'light', storageKey: 'epr-theme', detectFromSystem: true }}
-			locales={['en-GB']}
-			localeProps={{ defaultValue: 'en-GB', localeLabels: { 'en-GB': 'English (UK)' } }}
-			timeZoneProps={{ locale: 'en-GB' }}
+			locales={LOCALES}
+			localeProps={{
+				value: data.locale,
+				defaultValue: data.locale,
+				localeLabels: LOCALE_LABELS,
+				onChange: changeLocale
+			}}
+			timeZoneProps={{ locale: data.locale }}
 			textSizeProps={{ storageKey: 'epr-text-size' }}
 			{shareTargets}
-			shareProps={{ copyLabel: 'Copy link', copiedLabel: 'Copied' }}
+			shareProps={{ copyLabel: t.pickers.copy, copiedLabel: t.pickers.copied }}
 		/>
 	</div>
 </Header>
@@ -84,16 +94,13 @@
 	{@render children()}
 </main>
 
-<Footer label="Site footer" class="site-footer">
+<Footer label={t.footerLabel} class="site-footer">
 	<div class="site-width">
 		<p>
-			Open source: <a href={REPO}>source on GitHub</a>. Available under MIT, Apache-2.0, BSD-3-Clause,
-			GPL-2.0-only or GPL-3.0-only, at your choice; see the
-			<a href={blob('LICENSE.md')}>licence</a>.
+			<a href={REPO}>{t.footer.source}</a> ·
+			<a href={data.researchHref}>{t.nav.research}</a> ·
+			<a href={`${REPO}/blob/main/LICENSE.md`}>{t.footer.licence}</a>
 		</p>
-		<p>
-			Independent project. Not affiliated with or endorsed by the NHS, any government or any EPR
-			supplier. Not for clinical use.
-		</p>
+		<p>{t.footer.independent}</p>
 	</div>
 </Footer>

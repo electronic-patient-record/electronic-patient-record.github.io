@@ -11,4 +11,6 @@ pnpm run dev
 pnpm test
 ```
 
+Content is Markdown in [`locales/`](locales), in English, Welsh and Mandarin. See [`spec/locale/index.md`](spec/locale/index.md).
+
 Pushing to `main` deploys through [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml). See [`AGENTS.md`](AGENTS.md).

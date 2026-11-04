@@ -80,8 +80,64 @@ h1 {
 	margin-block: 0.5rem 1rem;
 }
 .lead {
-	font-size: 1.2rem;
 	max-width: 44rem;
+}
+.subtitle {
+	font-size: 1.3rem;
+	margin-block: 0 1rem;
+	max-width: 44rem;
+}
+.hero-block {
+	padding-block: 1.5rem 0.5rem;
+}
+.actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+	margin-block: 1.5rem;
+}
+.action {
+	padding: 0.6rem 1.1rem;
+	border: 1px solid var(--color-primary);
+	border-radius: var(--radius-field, 0.5rem);
+	font-weight: 600;
+	text-decoration: none;
+}
+.action.primary {
+	background: var(--color-primary);
+	color: var(--color-primary-content);
+}
+.action:hover {
+	background: var(--color-base-200);
+}
+.action.primary:hover {
+	background: var(--color-primary);
+	opacity: 0.9;
+}
+.translations {
+	font-size: 0.95rem;
+}
+.prose table {
+	border-collapse: collapse;
+	width: 100%;
+	display: block;
+	overflow-x: auto;
+}
+.prose th,
+.prose td {
+	border-bottom: 1px solid var(--color-base-300);
+	padding: 0.5rem 0.75rem 0.5rem 0;
+	text-align: start;
+	vertical-align: top;
+}
+.prose pre {
+	background: var(--color-base-200);
+	border-radius: var(--radius-box, 0.5rem);
+	padding: 0.75rem 1rem;
+	overflow-x: auto;
+}
+.site-pickers button:hover {
+	background: var(--color-base-200);
 }
 section {
 	margin-block-start: 2.5rem;
@@ -99,21 +155,6 @@ section {
 .cards .card h3 {
 	margin-block-start: 0;
 }
-.fact-table {
-	border-collapse: collapse;
-	width: 100%;
-	max-width: 40rem;
-}
-.fact-table th,
-.fact-table td {
-	border-bottom: 1px solid var(--color-base-300);
-	padding: 0.5rem 0.75rem 0.5rem 0;
-	text-align: start;
-	vertical-align: top;
-}
-.fact-table th {
-	font-weight: 600;
-}
 .site-footer {
 	border-top: 1px solid var(--color-base-300);
 	padding-block: 1.5rem;
@@ -126,4 +167,7 @@ section {
 	overflow: hidden;
 	clip-path: inset(50%);
 	white-space: nowrap;
+}
+.machine-notice {
+	font-weight: 400;
 }

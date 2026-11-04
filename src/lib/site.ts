@@ -1,40 +1,6 @@
-// Facts about the project. Each comes from the source repository; nothing here is an estimate.
 export const SITE_URL = 'https://electronic-patient-record.github.io';
 export const REPO = 'https://github.com/electronic-patient-record/electronic-patient-record';
-export const blob = (path: string) => `${REPO}/blob/main/${path}`;
-export const tree = (path: string) => `${REPO}/tree/main/${path}`;
 
-export const nav = [
-	{ href: '/', label: 'Home' },
-	{ href: '/status/', label: 'Status' },
-	{ href: '/research/', label: 'Research' },
-	{ href: '/about/', label: 'About' }
-];
-
-/** What /search/ looks through: page titles and descriptions, not page text. */
-export const pages = [
-	{ href: '/', label: 'Home', text: 'overview open source electronic patient record FHIR Rust SvelteKit service matcher clinician UI invariants' },
-	{ href: '/status/', label: 'Status', text: 'what is built and not built, tests, tasks, safety, review, hazard' },
-	{ href: '/research/', label: 'Research', text: 'desk research behind the specification, other EPRs' },
-	{ href: '/about/', label: 'About', text: 'not for clinical use, how the work is done, take part, licence, contribute' }
-];
-
-/** Copied by hand from spec/14-implementation-status.md, generated in the source repository. */
-export const snapshot = {
-	date: '2026-11-04',
-	commit: '6deddf5',
-	facts: [
-		['Service version', '0.1.0'],
-		['Matcher version', '0.5.0'],
-		['User interface version', '0.1.0'],
-		['Database migrations', '24'],
-		['Route registrations', '70'],
-		['Service tests', '565, plus 159 that need a database'],
-		['Matcher tests', '105'],
-		['User interface unit tests', '245'],
-		['User interface end-to-end tests', '89'],
-		['Locales (machine-written until a speaker reviews them)', '10']
-	],
-	tasksDone: 52,
-	tasksOpen: 312
-};
+/** Header navigation, in order. Each name is a topic's `.topic` file. */
+export const NAV = ['benefits', 'features', 'compare', 'tutorial', 'status', 'about'] as const;
+export type NavName = (typeof NAV)[number];

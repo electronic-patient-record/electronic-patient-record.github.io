@@ -3,7 +3,14 @@
 > Open-source electronic patient record software. A pre-release scaffold: not for clinical use. Do not enter real patient data.
 
 - [Home](https://electronic-patient-record.github.io/): what the project is
-- [Status](https://electronic-patient-record.github.io/status/): what is and is not built
-- [Research](https://electronic-patient-record.github.io/research/): the desk research behind the specification
-- [About](https://electronic-patient-record.github.io/about/): how the project works
+- [Benefits](https://electronic-patient-record.github.io/locales/en-001/benefits/): what it is designed to give
+- [Features](https://electronic-patient-record.github.io/locales/en-001/features/): built, and designed but not built
+- [Compare](https://electronic-patient-record.github.io/compare/): how it differs, and where others are ahead
+- [Tutorial](https://electronic-patient-record.github.io/locales/en-001/tutorial/): a first explained match
+- [Status](https://electronic-patient-record.github.io/locales/en-001/status/): what is and is not built
+- [Research](https://electronic-patient-record.github.io/locales/en-001/research/): the desk research behind the specification
+- [About](https://electronic-patient-record.github.io/locales/en-001/about/): how the project works
+- [Sitemap](https://electronic-patient-record.github.io/sitemap.xml)
 - [Source](https://github.com/electronic-patient-record/electronic-patient-record): the code and specification
+
+Also in Welsh (/locales/cy-gb/, /locales/cy-001/) and Mandarin in Simplified Chinese (/locales/zh-cn/, /locales/zh-001/), machine-written and not reviewed by a speaker.

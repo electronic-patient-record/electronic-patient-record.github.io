@@ -33,7 +33,7 @@ function read(locale: string, dir: string, slug: string, name: string): Page {
 	const source = readFileSync(join(dir, 'index.md'), 'utf8').replaceAll('](@/', `](${base}/`);
 	const peerId = readFileSync(join(dir, '.locale-peer-id'), 'utf8').trim();
 	const [head, ...rest] = source.split(/\n(?=## )/);
-	const lines = head.split(/\n\n+/).map((b) => b.trim()).filter(Boolean);
+	const lines = head.split(/\n\n+/).map((b: string) => b.trim()).filter(Boolean);
 	const title = lines[0].replace(/^#\s+/, '');
 	const subtitle = lines[1] ?? '';
 	const intro = lines.slice(2).join('\n\n');

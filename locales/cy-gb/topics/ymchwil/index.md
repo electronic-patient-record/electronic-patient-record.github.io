@@ -26,6 +26,13 @@ Cynigion a darlleniadau o ffynonellau cyhoeddus yw’r rhain, nid cyngor clinigo
 - [Cyfleuster cam-i-lawr](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/step-down-facility/index.md)
 - [Gwylio ar ffôn symudol](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/mobile-viewability.md)
 
+## Adegau anodd mewn gofal
+
+- [Profedigaeth](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/bereavement/index.md)
+- [Cymorth galar i oroeswyr](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/survivor-grief/index.md)
+- [Gwylio hunanladdiad ac arsylwi gwell](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/suicide-watch/index.md)
+- [Trin trawma](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/trauma-treatment/index.md)
+
 ## Ei fabwysiadu
 
 - [Cyfnewid data: cael data i mewn ac allan](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/data-exchange/index.md)

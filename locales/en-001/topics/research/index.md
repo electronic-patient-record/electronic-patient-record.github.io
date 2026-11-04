@@ -26,6 +26,13 @@ These are proposals and readings of public sources, not clinical or legal advice
 - [Step-down facility](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/step-down-facility/index.md)
 - [Mobile viewability](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/mobile-viewability.md)
 
+## Hard moments in care
+
+- [Bereavement](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/bereavement/index.md)
+- [Grief support for survivors](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/survivor-grief/index.md)
+- [Suicide watch and enhanced observation](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/suicide-watch/index.md)
+- [Trauma treatment](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/trauma-treatment/index.md)
+
 ## Adopting it
 
 - [Data exchange: getting data in and out](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/data-exchange/index.md)

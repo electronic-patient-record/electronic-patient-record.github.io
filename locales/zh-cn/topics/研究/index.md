@@ -26,6 +26,13 @@
 - [降阶照护机构](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/step-down-facility/index.md)
 - [移动端可视性](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/mobile-viewability.md)
 
+## 照护中的艰难时刻
+
+- [丧亲](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/bereavement/index.md)
+- [幸存者的哀伤支持](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/survivor-grief/index.md)
+- [自杀监护和强化观察](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/suicide-watch/index.md)
+- [创伤治疗](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/trauma-treatment/index.md)
+
 ## 采用
 
 - [数据交换：数据的导入和导出](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/data-exchange/index.md)

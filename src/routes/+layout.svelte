@@ -2,13 +2,32 @@
 	import '#lib/site.css';
 	import { page } from '$app/state';
 	import { AnnouncementBanner, Footer, Header, SkipLink } from '@lilydesignsystem/svelte-headless';
-	import ThemePicker from '@lilydesignsystem/svelte-theme-picker';
-	import TextSizePicker from '@lilydesignsystem/svelte-text-size-picker';
+	import PickerBar from '@lilydesignsystem/svelte-picker-bar';
 	import { blob, nav, REPO } from '#lib/site.ts';
 	import { themes } from '#lib/themes.ts';
 
 	let { children } = $props();
-	const themeLabels = Object.fromEntries(themes.map((t) => [t.id, t.label]));
+
+	const encode = encodeURIComponent;
+	const shareTargets = [
+		{
+			id: 'email',
+			label: 'Email',
+			href: (url: string, title: string) => `mailto:?subject=${encode(title)}&body=${encode(url)}`,
+			newTab: false
+		},
+		{
+			id: 'linkedin',
+			label: 'LinkedIn',
+			href: (url: string) => `https://www.linkedin.com/sharing/share-offsite/?url=${encode(url)}`
+		},
+		{
+			id: 'bluesky',
+			label: 'Bluesky',
+			href: (url: string, title: string) =>
+				`https://bsky.app/intent/compose?text=${encode(`${title} ${url}`)}`
+		}
+	];
 </script>
 
 <SkipLink href="#content" label="Skip to content" />
@@ -33,23 +52,31 @@
 				{/each}
 			</ul>
 		</nav>
-		<div class="site-pickers">
-			<TextSizePicker
-				label="Text size"
-				sizes={['largest', 'larger', 'large', 'normal', 'small', 'smaller', 'smallest']}
-				defaultValue="normal"
-				storageKey="epr-text-size"
-			/>
-			<ThemePicker
-				label="Colour theme"
-				themesUrl="/themes/"
-				themes={themes.map((t) => t.id)}
-				{themeLabels}
-				defaultValue="light"
-				storageKey="epr-theme"
-				detectFromSystem
-			/>
-		</div>
+		<PickerBar
+			class="site-pickers"
+			labels={{
+				link: 'Pages',
+				search: 'Search this site',
+				searchInput: 'Search terms',
+				searchSubmit: 'Search',
+				theme: 'Colour theme',
+				locale: 'Language',
+				timeZone: 'Time zone',
+				textSize: 'Text size',
+				share: 'Share'
+			}}
+			links={nav}
+			searchProps={{ action: '/search/', placeholder: 'Search this site' }}
+			themesUrl="/themes/"
+			{themes}
+			themeProps={{ defaultValue: 'light', storageKey: 'epr-theme', detectFromSystem: true }}
+			locales={['en-GB']}
+			localeProps={{ defaultValue: 'en-GB', localeLabels: { 'en-GB': 'English (UK)' } }}
+			timeZoneProps={{ locale: 'en-GB' }}
+			textSizeProps={{ storageKey: 'epr-text-size' }}
+			{shareTargets}
+			shareProps={{ copyLabel: 'Copy link', copiedLabel: 'Copied' }}
+		/>
 	</div>
 </Header>
 

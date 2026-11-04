@@ -1,15 +1,13 @@
-// Copy the themes this site offers from @lilydesignsystem/themes into static/themes.
-// Government and NHS themes are deliberately not offered: this is an independent project that is
-// not for clinical use, and it must not look endorsed by any health service or government.
-import { cpSync, mkdirSync, readFileSync } from 'node:fs';
+// Copy the Lily themes into static/themes, leaving out government and NHS themes: this is an independent
+// project that is not for clinical use, and it must not look endorsed. Must match src/lib/themes.ts.
+import { cpSync, mkdirSync, readdirSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { createRequire } from 'node:module';
 
+const EXCLUDED = /^united-(kingdom|states)-/;
 const require = createRequire(import.meta.url);
-const root = dirname(require.resolve('@lilydesignsystem/themes/package.json'));
-const source = readFileSync('src/lib/themes.ts', 'utf8');
-const themes = [...source.matchAll(/id: '([a-z-]+)'/g)].map((m) => m[1]);
-if (themes.length === 0) throw new Error('no themes found in src/lib/themes.ts');
+const dist = join(dirname(require.resolve('@lilydesignsystem/themes/package.json')), 'dist');
+const files = readdirSync(dist).filter((f) => f.endsWith('.css') && !EXCLUDED.test(f));
 mkdirSync('static/themes', { recursive: true });
-for (const theme of themes) cpSync(join(root, 'dist', `${theme}.css`), `static/themes/${theme}.css`);
-console.log(`copied ${themes.length} themes`);
+for (const file of files) cpSync(join(dist, file), join('static/themes', file));
+console.log(`copied ${files.length} themes`);

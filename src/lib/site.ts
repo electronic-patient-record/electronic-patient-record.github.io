@@ -11,6 +11,14 @@ export const nav = [
 	{ href: '/about/', label: 'About' }
 ];
 
+/** What /search/ looks through: page titles and descriptions, not page text. */
+export const pages = [
+	{ href: '/', label: 'Home', text: 'overview open source electronic patient record FHIR Rust SvelteKit service matcher clinician UI invariants' },
+	{ href: '/status/', label: 'Status', text: 'what is built and not built, tests, tasks, safety, review, hazard' },
+	{ href: '/research/', label: 'Research', text: 'desk research behind the specification, other EPRs' },
+	{ href: '/about/', label: 'About', text: 'not for clinical use, how the work is done, take part, licence, contribute' }
+];
+
 /** Copied by hand from spec/14-implementation-status.md, generated in the source repository. */
 export const snapshot = {
 	date: '2026-11-04',

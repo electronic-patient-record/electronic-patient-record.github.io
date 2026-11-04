@@ -32,4 +32,4 @@ Counted from the source tree. Test figures count tests written, not tests passin
 | User interface unit tests | 245 |
 | User interface end-to-end tests | 89 |
 | Tasks done | 52 |
-| Tasks open | 312 |
+| Tasks open | 339 |

@@ -32,4 +32,4 @@ Wedi’u cyfrif o’r cod ffynhonnell. Mae ffigurau profion yn cyfrif profion a 
 | Profion uned y rhyngwyneb | 245 |
 | Profion pen-i-ben y rhyngwyneb | 89 |
 | Tasgau wedi’u gwneud | 52 |
-| Tasgau ar agor | 312 |
+| Tasgau ar agor | 339 |

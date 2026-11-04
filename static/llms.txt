@@ -1,0 +1,9 @@
+# Electronic Patient Record
+
+> Open-source electronic patient record software. A pre-release scaffold: not for clinical use. Do not enter real patient data.
+
+- [Home](https://electronic-patient-record.github.io/): what the project is
+- [Status](https://electronic-patient-record.github.io/status/): what is and is not built
+- [Research](https://electronic-patient-record.github.io/research/): the desk research behind the specification
+- [About](https://electronic-patient-record.github.io/about/): how the project works
+- [Source](https://github.com/electronic-patient-record/electronic-patient-record): the code and specification

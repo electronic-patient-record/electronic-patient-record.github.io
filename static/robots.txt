@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://electronic-patient-record.github.io/sitemap.xml

@@ -1,0 +1,39 @@
+{
+	"name": "electronic-patient-record.github.io",
+	"private": true,
+	"version": "0.1.0",
+	"type": "module",
+	"description": "Public website for the Electronic Patient Record open-source project. Pre-release; not for clinical use.",
+	"engines": {
+		"node": ">=26"
+	},
+	"scripts": {
+		"themes": "node scripts/copy-themes.mjs",
+		"dev": "pnpm run themes && vite dev",
+		"build": "pnpm run themes && vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"test": "pnpm run build && node scripts/check-site.mjs"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-static": "^4.0.1",
+		"@sveltejs/kit": "^3.1.1",
+		"@sveltejs/vite-plugin-svelte": "^7.3.1",
+		"svelte": "^5.57.3",
+		"svelte-check": "^4.7.8",
+		"typescript": "6.0.3",
+		"vite": "^8.3.5"
+	},
+	"dependencies": {
+		"@lilydesignsystem/svelte-headless": "^0.6.2",
+		"@lilydesignsystem/svelte-text-size-picker": "^0.3.0",
+		"@lilydesignsystem/svelte-theme-picker": "^0.3.0",
+		"@lilydesignsystem/themes": "^0.6.0"
+	},
+	"packageManager": "pnpm@12.10.1",
+	"license": "MIT OR Apache-2.0 OR BSD-3-Clause OR GPL-2.0-only OR GPL-3.0-only",
+	"imports": {
+		"#lib/*": "./src/lib/*"
+	}
+}

@@ -12,7 +12,7 @@ EMIS 开发 EMIS Web、EMIS-X 和 Patient Access 应用。其所有权在 2023 �
 
 初级保健是其核心市场。社区是一款明确的产品。所读来源中未发现急症使用。
 
-## 并列比较
+## 比较
 
 | 方面 | EMIS | 本项目现状 |
 |---|---|---|
@@ -20,8 +20,8 @@ EMIS 开发 EMIS Web、EMIS-X 和 Patient Access 应用。其所有权在 2023 �
 | 互操作性 | 通过 GP Connect 的 FHIR 以及 IM1 | 针对三种资源的 FHIR R4 和 R5 读取；入站 HL7 v2 ADT |
 | 移动端和患者访问 | EMIS-X Mobile 和 Patient Access 应用 | 移动端布局和患者门户尚未构建 |
 
-## 本项目从中学到什么
+## 对本项目的影响
 
-要规定降级模式（只读并有纸质备用），因为 2024 年和 2026 年都有中断的报道。未送达的信件必须变得可见。要记录共享所依据的协议。
+2024 年和 2026 年都有中断的报道，因此应规定降级模式，包括只读访问和纸质备用。未送达的信件应被标记，每次共享所依据的协议也应记录。
 
 [阅读完整笔记及来源（英文）](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/emis/index.md) · [全部比较](@/比较/)

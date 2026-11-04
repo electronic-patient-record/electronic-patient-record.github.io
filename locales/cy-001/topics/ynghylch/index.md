@@ -1,8 +1,8 @@
 # Ynghylch
 
-Prosiect cod agored annibynnol, a sut gallwch chi fod yn rhan ohono.
+Cefndir y prosiect, arferion gwaith a sut i gyfrannu.
 
-Y nod yw cofnod cleifion sy’n ddiogel o ran ei wneuthuriad ac yn onest am yr hyn nad yw wedi’i wneud.
+Nod y prosiect yw cynhyrchu cofnod cleifion y mae ei ymddygiad wedi’i fanylu, ei brofi a’i ddogfennu, gan gynnwys yr hyn na wnaed.
 
 ## Nid at ddefnydd clinigol
 
@@ -11,15 +11,15 @@ Peidiwch â defnyddio’r feddalwedd hon i ofalu am unrhyw un, a pheidiwch â rh
 ## Sut mae’r gwaith yn cael ei wneud
 
 - **Y fanyleb yn gyntaf.** Un ymrwymiad yw newid ymddygiad, gyda golygiad i’r fanyleb, y cod a’r prawf.
-- **Dweud beth na wnaed.** Mae pob cofnod yn y log newidiadau yn nodi beth na wnaed neu na wiriwyd.
+- **Cyfyngiadau datganedig.** Mae pob cofnod yn y log newidiadau yn nodi beth na wnaed neu na wiriwyd.
 - **Mae risg glinigol yn mynd yn y log peryglon.** Dim ond Swyddog Diogelwch Clinigol all dderbyn neu gau perygl.
-- **Byd-eang a theg.** Mae rheolau cenedlaethol mewn pecynnau, nid yn y craidd.
+- **Dyluniad rhyngwladol.** Cedwir rheolau cenedlaethol mewn pecynnau, nid yn y craidd.
 
 Gwneir llawer o’r gwaith gydag asiantiaid codio AI. Mae’r [datganiad AI](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/AI_STATEMENT.md) a’r [cyfarwyddiadau i asiantiaid](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/AGENTS.md) yn gyhoeddus.
 
-## Cymryd rhan
+## Sut i gyfrannu
 
-Mae’r prosiect angen yn bennaf bobl nad yw ganddo: clinigwyr, Swyddog Diogelwch Clinigol, a phobl sy’n gallu adolygu’r gwaith preifatrwydd a mynediad o brofiad.
+Mae gan y prosiect anghenion agored am glinigwyr, Swyddog Diogelwch Clinigol, ac adolygwyr ar gyfer ei waith preifatrwydd a mynediad.
 
 - Dechreuwch gyda’r [cwestiynau agored](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/16-open-questions.md).
 - Darllenwch [sut i gyfrannu](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/CONTRIBUTING.md).

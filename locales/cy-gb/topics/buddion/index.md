@@ -1,65 +1,65 @@
 # Buddion
 
-Yr hyn y mae’r dull hwn wedi’i ddylunio i’w roi i’r bobl sy’n defnyddio cofnod cleifion.
+Buddion arfaethedig fesul grŵp defnyddwyr.
 
-Nodau y mae’r prosiect wedi’i adeiladu o’u cwmpas yw’r rhain, nid canlyniadau. Nid oes dim yma wedi’i brofi mewn defnydd clinigol, oherwydd nid yw wedi cael ei ddefnyddio’n glinigol. Mae’r [dudalen statws](@/statws/) yn dweud beth sy’n bodoli heddiw.
+Amcanion dylunio yw’r rhain, nid canlyniadau a fesurwyd. Nid yw’r feddalwedd wedi’i defnyddio’n glinigol. Gweler y [dudalen statws](@/statws/) am yr hyn sy’n bodoli heddiw.
 
-## I gleifion
+## Cleifion
 
-### Gweld pwy edrychodd
+### Log mynediad
 
-Mae’r dyluniad yn rhoi log i chi o bwy agorodd eich cofnod, wedi’i ddangos yn ôl rôl a sefydliad.
+Mae’r dyluniad yn cynnwys log sy’n dangos pa rolau a sefydliadau a agorodd gofnod.
 
-### Mae eich dymuniadau’n teithio gyda’r cofnod
+### Gorfodi cydsyniad
 
-Mae’r gwasanaeth yn gwirio cydsyniad ar bob darlleniad, nid ar y sgrin o’ch blaen yn unig.
+Mae’r gwasanaeth yn gwirio cydsyniad ar bob darlleniad, yn hytrach na dibynnu ar y rhyngwyneb defnyddiwr.
 
-### Cywiriadau, nid cuddio
+### Ceisiadau am ddiwygiad
 
-Gallwch ofyn am newid, ac mae’r gwreiddiol yn aros ar y cofnod wrth ei ochr.
+Gall claf ofyn am newid. Caiff y cofnod gwreiddiol ei gadw wrth ei ochr.
 
-## I glinigwyr
+## Clinigwyr
 
-### Un cofnod ar hyd y llwybr cyfan
+### Cofnod seiliedig ar lwybr
 
-Caiff y cofnod ei drefnu o amgylch llwybr gofal y claf, fel nad yw rhyddhau o un tîm yn dod â’r stori i ben.
+Caiff y cofnod ei drefnu yn ôl llwybr gofal, felly nid yw rhyddhau o un tîm yn cau gofal y claf.
 
-### Mynediad brys sy’n gweithio
+### Mynediad brys
 
-Mae torri’r gwydr yn rhoi pedair awr o fynediad darllen i glinigydd sy’n trin, gyda rheswm, ac mae’n cael ei adolygu wedyn.
+Mae torri’r gwydr yn rhoi pedair awr o fynediad darllen i glinigydd sy’n trin. Mae angen rheswm, a chaiff y mynediad ei adolygu wedyn.
 
-### Cael gwybod beth sydd ar goll
+### Gwelededd data coll
 
-Caiff bwlch ei ddangos fel anhysbys, gyda rheswm, a byth fel "dim" neu "normal".
+Caiff data coll ei ddangos fel anhysbys, gyda rheswm, ac nid fel "dim" neu "normal".
 
-## I sefydliadau
+## Sefydliadau
 
-### Dim cloi i mewn trwy ddyluniad
+### Trwyddedu a chludadwyedd
 
-Dewiswch o bum trwydded agored. FHIR R4 yw’r model data a’r API, felly mae eich data mewn safon a rennir.
+Mae pum trwydded agored ar gael. Defnyddir FHIR R4 fel y model data a’r API.
 
-### Risg y gallwch ei harchwilio
+### Log peryglon cyhoeddedig
 
-Mae’r log peryglon yn gyhoeddus, a dim ond Swyddog Diogelwch Clinigol all gau perygl.
+Mae’r log peryglon yn gyhoeddus. Dim ond Swyddog Diogelwch Clinigol all gau perygl.
 
-### Tystiolaeth, nid addewidion
+### Hanes newidiadau cyhoeddedig
 
-Mae pob newid yn nodi beth na wnaed neu na wiriwyd, mewn log newidiadau cyhoeddus.
+Mae pob cofnod yn y log newidiadau cyhoeddus yn nodi beth na wnaed neu na wiriwyd.
 
-## I ddatblygwyr
+## Datblygwyr
 
-### Y fanyleb yn gyntaf
+### Datblygu dan arweiniad manyleb
 
-Un ymrwymiad yw newid ymddygiad: golygiad i’r fanyleb, y cod a’r prawf.
+Un ymrwymiad yw newid ymddygiad, gyda golygiad i’r fanyleb, y cod a’r prawf.
 
-### Gwarchodwyr yn yr adeiladu
+### Profion cyfrifiad
 
-Mae profion cyfrifiad yn methu pan fo llwybr, colofn neu ganiatâd yn cael ei ychwanegu heb gyfrif amdano.
+Mae profion awtomataidd yn methu pan ychwanegir llwybr, colofn neu ganiatâd heb gyfrif amdano.
 
-### Pentwr modern
+### Pentwr technoleg
 
 Rust a loco.rs, PostgreSQL 18, SvelteKit a Svelte 5, Lily Design System.
 
-## I bawb, ym mhobman
+## Defnydd rhyngwladol
 
-Mae rheolau cenedlaethol mewn pecynnau ac nid yn y craidd, fel bod gan allu ar gyfer un wlad lwybr i weithio i bawb. Mae gan ryngwyneb y clinigwyr 10 locale, wedi’u hysgrifennu gan beiriant nes bydd siaradwyr yn eu hadolygu.
+Cedwir rheolau cenedlaethol mewn pecynnau, nid yn y craidd. Mae gan ryngwyneb y clinigwyr 10 locale, sydd wedi’u hysgrifennu gan beiriant nes bydd siaradwyr yn eu hadolygu.

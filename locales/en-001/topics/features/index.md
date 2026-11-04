@@ -1,6 +1,6 @@
 # Features
 
-What exists today, and what is designed but not built.
+Functionality built to date, and functionality designed but not built.
 
 Everything under "Built" has code and tests in the repository. None of it has been reviewed clinically or validated for care.
 
@@ -8,7 +8,7 @@ Everything under "Built" has code and tests in the repository. None of it has be
 
 ### Patient identity
 
-Registration and search, with duplicate checks. Merge and unmerge, kept reversible.
+Registration and search, with duplicate checks. Merge and unmerge are both supported.
 
 ### Explainable matching
 
@@ -22,13 +22,13 @@ Roles, care relationships, consent, purpose of use and break-the-glass, decided 
 
 Every read and write, in a trail protected by database triggers and verifiable by route.
 
-### Clinical beginnings
+### Initial clinical data
 
 Allergies, observations, patient photos, and amendment requests.
 
 ### Closed-loop referrals
 
-Referrals with worklists, so a referral that gets no answer becomes visible.
+Referrals with worklists. A referral without a response is flagged.
 
 ### Interoperability
 

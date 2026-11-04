@@ -12,7 +12,7 @@ TrakCare 由总部位于波士顿的私营公司 InterSystems 开发，基于其
 
 急症和门诊是其核心。据报道苏格兰和爱尔兰有精神卫生使用。未找到社区和初级保健。
 
-## 并列比较
+## 比较
 
 | 方面 | InterSystems TrakCare | 本项目现状 |
 |---|---|---|
@@ -20,8 +20,8 @@ TrakCare 由总部位于波士顿的私营公司 InterSystems 开发，基于其
 | 互操作性 | FHIR、SMART on FHIR 和 NHS 配置（供应商） | 针对三种资源的 FHIR R4 和 R5 读取；入站 HL7 v2 ADT |
 | 移动端和患者访问 | 移动优先说法（供应商） | 移动端布局和患者门户尚未构建 |
 
-## 本项目从中学到什么
+## 对本项目的影响
 
-据报道，上线困难集中在数据质量和等待时间报告上，因此要尽早测试迁移数据。苏格兰逐个卫生局推行的方式是按场景分阶段的范例。
+据报道，上线困难集中在数据质量和等待时间报告上，因此应尽早测试迁移数据。苏格兰逐个卫生局推行的方式是按场景分阶段的一种模式。
 
 [阅读完整笔记及来源（英文）](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/intersystems-trakcare/index.md) · [全部比较](@/比较/)

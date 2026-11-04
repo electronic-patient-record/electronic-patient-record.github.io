@@ -12,7 +12,7 @@ Prynodd Oracle Cerner, a sefydlwyd ym 1979, mewn cytundeb a gwblhawyd ym mis Meh
 
 Gofal acíwt i gleifion mewnol yw ei brif farchnad. Ni sefydlwyd addasrwydd ar gyfer gofal brys, cymuned, iechyd meddwl a gofal sylfaenol o’r ffynonellau a ddarllenwyd.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | Oracle Health (Cerner) | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Gofal acíwt i gleifion mewnol yw ei brif farchnad. Ni sefydlwyd addasrwydd ar g
 | Rhyngweithredu | FHIR R4, gyda galluogi amodol | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | Heb ei ganfod yn y ffynonellau a ddarllenwyd | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Adroddodd arolygydd cyffredinol yn yr Unol Daleithiau yn 2022 fod nam llwybro wedi gadael archebion mewn ciw heb ei fonitro. Rhaid i archeb byth aros lle nad oes neb yn edrych, felly dylai’r prosiect hwn brofi hynny gyda chyrchfannau heb berchennog. Mae angen diffinio ymddygiad amser segur yn gynnar.
+Adroddodd arolygydd cyffredinol yn yr Unol Daleithiau yn 2022 fod nam llwybro wedi gadael archebion mewn ciw heb ei fonitro. Dylai’r prosiect hwn felly brofi archebion a anfonir at gyrchfannau heb berchennog, a diffinio ymddygiad amser segur yn gynnar.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/oracle-cerner/index.md) · [Pob cymhariaeth](@/cymharu/)

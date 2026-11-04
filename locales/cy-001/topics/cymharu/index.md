@@ -1,10 +1,10 @@
 # Cymharu
 
-Sut mae’r prosiect hwn yn wahanol i gofnodion cleifion electronig eraill, a lle maen nhw ymhell ar y blaen.
+Sut mae’r prosiect hwn yn wahanol i gofnodion cleifion electronig eraill, gan gynnwys lle maent yn fwy datblygedig.
 
-Mae systemau sefydledig yn gynhyrchion sy’n gweithio ac yn gofalu am gleifion go iawn. Sgaffald yw’r prosiect hwn. Mae’r dudalen hon yn cymharu dulliau, nid ansawdd: nid yw’n dweud bod unrhyw system yn well neu’n waeth, ac os oes angen cofnod arnoch ar gyfer gofal cleifion heddiw, defnyddiwch system sefydledig.
+Mae systemau sefydledig mewn defnydd clinigol, a sgaffald yw’r prosiect hwn. Mae’r dudalen hon yn cymharu dulliau, nid ansawdd, ac nid yw’n rhestru systemau yn ôl safle. Dylai sefydliadau sydd angen cofnod ar gyfer gofal cleifion heddiw ddefnyddio system sefydledig.
 
-## Cipolwg
+## Crynodeb
 
 | | Y prosiect hwn | EPRs masnachol (nodweddiadol) | EPRs cod agored (amrywio) |
 |---|---|---|---|
@@ -19,14 +19,14 @@ Mae systemau sefydledig yn gynhyrchion sy’n gweithio ac yn gofalu am gleifion 
 
 Cyffredinoliad o ffynonellau cyhoeddus yw’r golofn fasnachol. Darllenwch hi fel un nodweddiadol, nid fel gwir am bob cynnyrch.
 
-## Lle mae eraill ar y blaen
+## Lle mae systemau sefydledig ar y blaen
 
-Yn ôl [meincnod](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/benchmark.md) y prosiect ei hun o ddeuddeg system cod agored (30 Hydref 2026), mae’r maes ymhell ar y blaen o ran swyddogaeth. Mae OpenEMR wedi’i ardystio yn yr Unol Daleithiau, mae OpenMRS yn blatfform hirsefydlog, ac mae gan Medplum ei ardystiadau ei hun. Roedd gan y systemau hynny hefyd gryfderau gweithredol a oedd ar goll o’r prosiect hwn, fel rhifau perfformiad wedi’u cyhoeddi. Mae’r meincnod yn enwi pob bwlch.
+Yn ôl [meincnod](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/benchmark.md) y prosiect ei hun o ddeuddeg system cod agored (30 Hydref 2026), mae systemau eraill gryn dipyn ar y blaen o ran swyddogaethau. Mae OpenEMR wedi’i ardystio yn yr Unol Daleithiau, mae OpenMRS yn blatfform hirsefydlog, ac mae gan Medplum ei ardystiadau ei hun. Roedd gan y systemau hynny hefyd gryfderau gweithredol a oedd ar goll o’r prosiect hwn, fel rhifau perfformiad wedi’u cyhoeddi. Mae’r meincnod yn enwi pob bwlch.
 
-## Lle mae’r prosiect hwn yn sefyll yn dda
+## Arferion peirianneg
 
-Canfu’r un meincnod fod ei hylendid peirianneg (lint, profion cyfrifiad, gwrthod archwilio, tarddiad, bil deunyddiau meddalwedd) ar lefel y maes neu’n uwch. Datganiad am sut mae’r cod yn cael ei gadw yw hwnnw, nid am barodrwydd clinigol.
+Graddiodd yr un meincnod yr arferion peirianneg (lint, profion cyfrifiad, gwrthod archwilio, tarddiad, bil deunyddiau meddalwedd) ar lefel y grŵp cymharu neu’n uwch. Mae hyn yn disgrifio cynnal a chadw cod, nid parodrwydd clinigol.
 
-## System wrth system
+## Systemau unigol
 
-Nodiadau o ffynonellau cyhoeddus ar yr hyn y gellir ei ddysgu o systemau sy’n cael eu defnyddio. Nid adolygiadau o gynhyrchion ydynt.
+Crynodebau yn seiliedig ar ffynonellau cyhoeddus. Nid adolygiadau o gynhyrchion ydynt.

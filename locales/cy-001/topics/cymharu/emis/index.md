@@ -12,7 +12,7 @@ Mae EMIS yn gwneud EMIS Web, EMIS-X ac ap Patient Access. Newidiodd ei berchnoga
 
 Gofal sylfaenol yw ei brif farchnad. Mae cymuned yn gynnyrch a enwir. Ni chanfuwyd defnydd acíwt yn y ffynonellau a ddarllenwyd.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | EMIS | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Gofal sylfaenol yw ei brif farchnad. Mae cymuned yn gynnyrch a enwir. Ni chanfuw
 | Rhyngweithredu | FHIR trwy GP Connect, ac IM1 | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | EMIS-X Mobile ac ap Patient Access | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Nodwch fodd diraddiedig, darllen yn unig gyda phapur wrth gefn, oherwydd adroddwyd am doriadau yn 2024 a 2026. Rhaid i lythyr sy’n methu â chyrraedd ddod yn weladwy. Cofnodwch y cytundeb y mae rhannu’n dibynnu arno.
+Adroddwyd am doriadau yn 2024 a 2026, felly dylid nodi modd diraddiedig, gyda mynediad darllen yn unig a phapur wrth gefn. Dylid nodi llythyrau na chyrhaeddodd, a chofnodi’r cytundeb y tu ôl i bob rhannu.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/emis/index.md) · [Pob cymhariaeth](@/cymharu/)

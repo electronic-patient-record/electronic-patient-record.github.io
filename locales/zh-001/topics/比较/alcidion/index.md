@@ -12,7 +12,7 @@ Alcidion Group 在澳大利亚上市。其主要产品是 Miya Precision，公�
 
 急症住院和急诊流转是其有证据的强项。社区护理记录和初级保健无法确定。
 
-## 并列比较
+## 比较
 
 | 方面 | Alcidion | 本项目现状 |
 |---|---|---|
@@ -20,8 +20,8 @@ Alcidion Group 在澳大利亚上市。其主要产品是 Miya Precision，公�
 | 互操作性 | FHIR 事件平台（供应商） | 针对三种资源的 FHIR R4 和 R5 读取；入站 HL7 v2 ADT |
 | 移动端和患者访问 | 在所读来源中未找到 | 移动端布局和患者门户尚未构建 |
 
-## 本项目从中学到什么
+## 对本项目的影响
 
-单独购买的模块展示了小型供应商的一种起步方式。闭环思路既适用于转诊，也适用于结果，评估也应尽早规划。
+单独购买的模块是一种可行的采用途径。闭环转诊设计也可用于结果，评估应尽早规划。
 
 [阅读完整笔记及来源（英文）](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/alcidion/index.md) · [全部比较](@/比较/)

@@ -1,6 +1,6 @@
 # Nodweddion
 
-Beth sy’n bodoli heddiw, a beth sydd wedi’i ddylunio ond heb ei adeiladu.
+Swyddogaethau a adeiladwyd hyd yma, a swyddogaethau a ddyluniwyd ond heb eu hadeiladu.
 
 Mae gan bopeth o dan "Wedi’i adeiladu" god a phrofion yn y gadwrfa. Nid oes dim ohono wedi’i adolygu’n glinigol na’i ddilysu ar gyfer gofal.
 
@@ -8,7 +8,7 @@ Mae gan bopeth o dan "Wedi’i adeiladu" god a phrofion yn y gadwrfa. Nid oes di
 
 ### Hunaniaeth cleifion
 
-Cofrestru a chwilio, gyda gwiriadau dyblygu. Cyfuno a dad-gyfuno, y gellir eu gwrthdroi.
+Cofrestru a chwilio, gyda gwiriadau dyblygu. Cefnogir cyfuno a dad-gyfuno.
 
 ### Paru y gellir ei egluro
 
@@ -22,13 +22,13 @@ Rolau, perthnasoedd gofal, cydsyniad, diben defnyddio a thorri’r gwydr, wedi�
 
 Pob darlleniad ac ysgrifeniad, mewn llwybr a warchodir gan sbardunau cronfa ddata ac y gellir ei wirio trwy lwybr.
 
-### Dechreuadau clinigol
+### Data clinigol cychwynnol
 
 Alergeddau, arsylwadau, lluniau cleifion a cheisiadau am ddiwygiad.
 
 ### Atgyfeiriadau dolen gaeedig
 
-Atgyfeiriadau gyda rhestrau gwaith, fel bod atgyfeiriad heb ateb yn dod yn weladwy.
+Atgyfeiriadau gyda rhestrau gwaith. Caiff atgyfeiriad heb ymateb ei nodi.
 
 ### Rhyngweithredu
 

@@ -18,7 +18,7 @@ const en = {
 		research: 'Research',
 		about: 'About'
 	},
-	cta: { start: 'Start the tutorial', features: 'See the features', source: 'Read the source' },
+	cta: { start: 'View tutorial', features: 'View features', source: 'View source code' },
 	pickers: {
 		link: 'Pages',
 		search: 'Search this site',
@@ -68,7 +68,7 @@ const cy: Ui = {
 		research: 'Ymchwil',
 		about: 'Ynghylch'
 	},
-	cta: { start: 'Dechrau’r tiwtorial', features: 'Gweld y nodweddion', source: 'Darllen y cod' },
+	cta: { start: 'Gweld y tiwtorial', features: 'Gweld y nodweddion', source: 'Gweld y cod ffynhonnell' },
 	pickers: {
 		link: 'Tudalennau',
 		search: 'Chwilio’r wefan hon',
@@ -116,7 +116,7 @@ const zh: Ui = {
 		research: '研究',
 		about: '关于'
 	},
-	cta: { start: '开始教程', features: '查看功能', source: '阅读源代码' },
+	cta: { start: '查看教程', features: '查看功能', source: '查看源代码' },
 	pickers: {
 		link: '页面',
 		search: '搜索本站',

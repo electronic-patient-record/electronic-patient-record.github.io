@@ -1,6 +1,6 @@
 # 研究
 
-规范背后的案头研究，包括其来源和不足。
+支持规范的案头研究，包括来源和已知不足。
 
 这些是提案和对公开来源的解读，不是临床或法律建议。这些链接指向的页面仅有英文版。大多数来源是以搜索结果形式阅读的，每个页面都有 "Not verified"（未验证）部分。没有临床医生或律师审查过。这些想法在[计划](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/plan.md)中排序，并在[任务](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/tasks.md)中跟踪。
 
@@ -26,7 +26,7 @@
 - [降阶照护机构](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/step-down-facility/index.md)
 - [移动端可视性](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/mobile-viewability.md)
 
-## 照护中的艰难时刻
+## 敏感照护情形
 
 - [丧亲](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/bereavement/index.md)
 - [幸存者的哀伤支持](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/survivor-grief/index.md)

@@ -12,7 +12,7 @@ MEDITECH was founded in 1969 and is privately held. Expanse, its web-based EHR, 
 
 Acute and small or rural hospitals are its main footprint. The vendor also lists emergency, mental health, home care and ambulatory settings.
 
-## Side by side
+## Comparison
 
 | Area | MEDITECH | This project today |
 |---|---|---|
@@ -20,8 +20,8 @@ Acute and small or rural hospitals are its main footprint. The vendor also lists
 | Interoperability | US Core R4, SMART and a sandbox | FHIR R4 and R5 reads for three resources; HL7 v2 ADT inbound |
 | Mobile and patient access | Mobile-first claim for nurse smartphones (vendor) | Mobile layout and patient portal not built |
 
-## What this project takes from it
+## Implications for this project
 
-Small sites need an easy hosted path, so record what a minimum deployment takes. Any generated summary needs links to its sources and a clinician’s sign-off.
+Smaller sites may need a hosted option, so the minimum deployment should be documented. Any generated summary would need source links and clinician sign-off.
 
 [Read the full note, with sources](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/meditech/index.md) · [All comparisons](@/compare/)

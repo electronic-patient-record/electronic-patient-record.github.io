@@ -12,7 +12,7 @@ Mae Alcidion Group wedi’i restru yn Awstralia. Ei brif gynnyrch yw Miya Precis
 
 Gofal acíwt i gleifion mewnol a llif adrannau brys yw ei gryfderau â thystiolaeth. Ni sefydlwyd cofnodion nyrsio cymunedol a gofal sylfaenol.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | Alcidion | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Gofal acíwt i gleifion mewnol a llif adrannau brys yw ei gryfderau â thystiola
 | Rhyngweithredu | Platfform digwyddiadau FHIR (gwerthwr) | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | Heb ei ganfod yn y ffynonellau a ddarllenwyd | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Mae modiwlau a brynir ar wahân yn dangos un ffordd y gall cyflenwr bach ddechrau. Mae meddwl dolen gaeedig yn berthnasol i ganlyniadau yn ogystal ag atgyfeiriadau, a dylid cynllunio gwerthusiad yn gynnar.
+Mae modiwlau a brynir ar wahân yn un llwybr posibl i fabwysiadu. Gallai’r dyluniad atgyfeirio dolen gaeedig fod yn berthnasol i ganlyniadau hefyd, a dylid cynllunio gwerthusiad yn gynnar.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/alcidion/index.md) · [Pob cymhariaeth](@/cymharu/)

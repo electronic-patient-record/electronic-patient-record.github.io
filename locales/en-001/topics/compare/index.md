@@ -1,10 +1,10 @@
 # Compare
 
-How this project differs from other electronic patient records, and where they are far ahead.
+How this project differs from other electronic patient records, including where they are more advanced.
 
-Established systems are working products that care for real patients. This project is a scaffold. This page compares approaches, not quality: it does not say any system is better or worse, and if you need a record for patient care today, use an established system.
+Established systems are in clinical use, and this project is a scaffold. This page compares approaches, not quality, and does not rank any system. Organisations that need a record for patient care today should use an established system.
 
-## At a glance
+## Summary
 
 | | This project | Commercial EPRs (typical) | Open-source EPRs (varies) |
 |---|---|---|---|
@@ -19,14 +19,14 @@ Established systems are working products that care for real patients. This proje
 
 The commercial column is a generalisation from public sources. Read it as typical, not as true of every product.
 
-## Where others are ahead
+## Where established systems are ahead
 
-As of the project's own [benchmark](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/benchmark.md) of twelve open-source systems (30 October 2026), the field is far ahead on function. OpenEMR is certified in the US, OpenMRS is a long-established platform, and Medplum has its own certifications. Those systems also had operational strengths that this project was missing, such as published performance numbers. The benchmark names each gap.
+As of the project's own [benchmark](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/benchmark.md) of twelve open-source systems (30 October 2026), other systems are substantially ahead on functionality. OpenEMR is certified in the US, OpenMRS is a long-established platform, and Medplum has its own certifications. Those systems also had operational strengths that this project was missing, such as published performance numbers. The benchmark names each gap.
 
-## Where this project stands well
+## Engineering practices
 
-The same benchmark found its engineering hygiene (lint, census tests, audit refusal, provenance, a software bill of materials) at or above the field. That is a statement about how the code is kept, not about clinical readiness.
+The same benchmark rated engineering practices (lint, census tests, audit refusal, provenance, a software bill of materials) at or above the comparison group. This describes code maintenance, not clinical readiness.
 
-## System by system
+## Individual systems
 
-Public-source notes on what can be learned from systems in use. They are not product reviews.
+Summaries based on public sources. They are not product reviews.

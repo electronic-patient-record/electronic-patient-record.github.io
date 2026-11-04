@@ -1,12 +1,12 @@
 # 状态
 
-什么已存在，什么尚不存在，以及这些数字有多可信。
+构建状态、审查状态和项目数据。
 
 2026 年 11 月 4 日的快照。最新版本是自动生成的[实现状态](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/14-implementation-status.md)，[变更日志](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/CHANGELOG.md)说明每项更改未做或未验证的内容。
 
-## 简而言之
+## 概要
 
-这是一个框架。[功能页面](@/功能/)上“已构建”下的各项都有代码。临床记录的大部分内容还不存在。
+本项目是一个框架。[功能页面](@/功能/)上“已构建”下的各项都有代码。临床记录的大部分内容尚未构建。
 
 ## 安全与审查
 
@@ -16,7 +16,7 @@
 - 译文由机器撰写，直到有使用该语言的人审校。
 - [危害日志](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/governance/clinical-safety/hazard-log.csv)是公开的。
 
-## 数字
+## 数据
 
 从源代码树统计。测试数字统计的是已编写的测试，而不是某次运行中通过的测试。
 

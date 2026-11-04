@@ -12,7 +12,7 @@ TrakCare is made by InterSystems, a privately held company based in Boston, and 
 
 Acute and outpatient care are its core. Mental-health use is reported in Scotland and Ireland. Community and primary care were not found.
 
-## Side by side
+## Comparison
 
 | Area | InterSystems TrakCare | This project today |
 |---|---|---|
@@ -20,8 +20,8 @@ Acute and outpatient care are its core. Mental-health use is reported in Scotlan
 | Interoperability | FHIR, SMART on FHIR and NHS profiles (vendor) | FHIR R4 and R5 reads for three resources; HL7 v2 ADT inbound |
 | Mobile and patient access | Mobile-first claim (vendor) | Mobile layout and patient portal not built |
 
-## What this project takes from it
+## Implications for this project
 
-Reported go-live difficulties centred on data quality and waiting-time reporting, so test migration data early. Board-by-board roll-out in Scotland is a model for phasing by setting.
+Reported go-live difficulties centred on data quality and waiting-time reporting, so migration data should be tested early. Board-by-board roll-out in Scotland is one model for phasing by setting.
 
 [Read the full note, with sources](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/intersystems-trakcare/index.md) · [All comparisons](@/compare/)

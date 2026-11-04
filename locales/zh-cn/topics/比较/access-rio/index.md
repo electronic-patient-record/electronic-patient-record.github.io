@@ -12,7 +12,7 @@ Access Rio（原 Servelec Rio）由 The Access Group 销售。供应商称英格
 
 精神卫生是其核心市场，《精神卫生法》是设计的驱动因素。社区和儿童健康在其范围内。初级保健不是其市场。
 
-## 并列比较
+## 比较
 
 | 方面 | Access Rio | 本项目现状 |
 |---|---|---|
@@ -20,8 +20,8 @@ Access Rio（原 Servelec Rio）由 The Access Group 销售。供应商称英格
 | 互操作性 | Integration Hub（供应商） | 针对三种资源的 FHIR R4 和 R5 读取；入站 HL7 v2 ADT |
 | 移动端和患者访问 | 带同步的现场记录（供应商）；Mood Diary 应用 | 移动端布局和患者门户尚未构建 |
 
-## 本项目从中学到什么
+## 对本项目的影响
 
-法律状态应放在带日期和授权依据的记录中。一个团队的出院不应关闭路径。一份记录、多种配置与本项目的计划很接近。
+法律状态应作为带日期和授权依据的记录。一个团队的出院不应关闭路径。一份记录、多种配置与本项目的计划相近。
 
 [阅读完整笔记及来源（英文）](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/access-rio/index.md) · [全部比较](@/比较/)

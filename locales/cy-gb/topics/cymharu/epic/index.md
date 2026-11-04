@@ -12,7 +12,7 @@ Cwmni preifat o’r Unol Daleithiau yw Epic Systems, a sefydlwyd ym 1979. Mae ei
 
 Acíwt a chleifion allanol yw ei brif farchnad. Adroddir defnydd cymunedol yn Royal Devon and Exeter. Mae "Care in the Home" yn gategori a restrir. Ni sefydlwyd lleoliadau eraill o’r ffynonellau a ddarllenwyd.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | Epic | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Acíwt a chleifion allanol yw ei brif farchnad. Adroddir defnydd cymunedol yn Ro
 | Rhyngweithredu | FHIR R4 gyda SMART, yn amodol ar gymeradwyaeth y cwsmer | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | Porth cleifion MyChart | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Mae ehangder yn waith blynyddoedd, felly cadwch at y drefn yn y fanyleb. Mae angen gwirio’n lleol unrhyw fodel cefnogi penderfyniadau a anfonir at lawer o safleoedd, ac mae gan bob neges awtomatig gost i’r person sy’n ei darllen.
+Byddai ehangder tebyg yn cymryd blynyddoedd, felly mae trefn y gwaith yn y fanyleb yn sefyll. Byddai angen dilysu unrhyw fodel cefnogi penderfyniadau’n lleol, ac mae angen cyfyngu ar negeseuon awtomatig.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/epic/index.md) · [Pob cymhariaeth](@/cymharu/)

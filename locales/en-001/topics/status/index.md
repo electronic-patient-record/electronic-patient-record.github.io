@@ -1,12 +1,12 @@
 # Status
 
-What exists, what does not, and how far to trust the numbers.
+Build status, review status and project figures.
 
 A snapshot from 4 November 2026. The live version is the generated [implementation status](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/14-implementation-status.md), and the [changelog](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/CHANGELOG.md) says what each change did not do or verify.
 
-## In short
+## Summary
 
-This is a scaffold. Code exists for the items under "Built" on the [features page](@/features/). Most of the clinical record does not exist yet.
+The project is a scaffold. Code exists for the items under "Built" on the [features page](@/features/). Most of the clinical record is not yet built.
 
 ## Safety and review
 
@@ -16,7 +16,7 @@ This is a scaffold. Code exists for the items under "Built" on the [features pag
 - Translations are machine-written until a speaker reviews them.
 - The [hazard log](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/governance/clinical-safety/hazard-log.csv) is public.
 
-## Numbers
+## Figures
 
 Counted from the source tree. Test figures count tests written, not tests passing in a given run.
 

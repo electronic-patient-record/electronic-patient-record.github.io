@@ -1,6 +1,6 @@
 # Research
 
-The desk research behind the specification, with its sources and its gaps.
+Desk research supporting the specification, with sources and known gaps.
 
 These are proposals and readings of public sources, not clinical or legal advice. Most sources were read as search results, and each page has a "Not verified" section. No clinician or lawyer has reviewed them. The ideas are ranked in the [plan](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/plan.md) and tracked in [tasks](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/tasks.md).
 
@@ -26,7 +26,7 @@ These are proposals and readings of public sources, not clinical or legal advice
 - [Step-down facility](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/step-down-facility/index.md)
 - [Mobile viewability](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/mobile-viewability.md)
 
-## Hard moments in care
+## Sensitive care situations
 
 - [Bereavement](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/bereavement/index.md)
 - [Grief support for survivors](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/survivor-grief/index.md)

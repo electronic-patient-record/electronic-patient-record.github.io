@@ -12,7 +12,7 @@ Epic Systems is a privately held US company, founded in 1979. Its products inclu
 
 Acute and ambulatory are its core market. Community use is reported at Royal Devon and Exeter. "Care in the Home" is a listed category. Other settings were not established from the sources read.
 
-## Side by side
+## Comparison
 
 | Area | Epic | This project today |
 |---|---|---|
@@ -20,8 +20,8 @@ Acute and ambulatory are its core market. Community use is reported at Royal Dev
 | Interoperability | FHIR R4 with SMART, gated by customer approval | FHIR R4 and R5 reads for three resources; HL7 v2 ADT inbound |
 | Mobile and patient access | MyChart patient portal | Mobile layout and patient portal not built |
 
-## What this project takes from it
+## Implications for this project
 
-Breadth is years of work, so keep to the order in the specification. A decision-support model shipped to many sites needs checking locally, and every automatic message has a cost to the person who reads it.
+Comparable breadth would take years, so the specification’s order of work stands. Any decision-support model would need local validation, and automatic messages need to be limited.
 
 [Read the full note, with sources](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/epic/index.md) · [All comparisons](@/compare/)

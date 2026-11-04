@@ -12,7 +12,7 @@ Uned fusnes o Harris Healthcare yw Altera, a brynodd fusnes ysbytai a phractisau
 
 Gofal acíwt yw craidd Sunrise mewn ymddiriedolaethau GIG. Cynnyrch cleifion allanol yw TouchWorks. Ni sefydlwyd lleoliadau eraill o’r ffynonellau a ddarllenwyd.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | Altera Digital Health | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Gofal acíwt yw craidd Sunrise mewn ymddiriedolaethau GIG. Cynnyrch cleifion all
 | Rhyngweithredu | Honnir FHIR R4 gan wefan adolygu; partneriaethau rhwydwaith | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | Heb ei ganfod yn y ffynonellau a ddarllenwyd | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Cymerodd ehangder ddegawdau i werthwr, felly arhoswch yn gul a dweud hynny. Trinwch nodiadau a ddrafftiwyd gan AI fel nodwedd risg glinigol, gyda chofnodion yn y log peryglon a chyflwr tarddiad penodol.
+Mae ehangder tebyg wedi cymryd degawdau i gyflenwyr, felly dylai’r cwmpas aros yn gul. Dylid trin nodiadau a ddrafftiwyd gan AI fel nodwedd risg glinigol, gyda chofnodion yn y log peryglon a chyflwr tarddiad penodol.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/altera/index.md) · [Pob cymhariaeth](@/cymharu/)

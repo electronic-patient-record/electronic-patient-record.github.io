@@ -1,6 +1,6 @@
 # Ymchwil
 
-Yr ymchwil ddesg y tu ôl i’r fanyleb, gyda’i ffynonellau a’i bylchau.
+Ymchwil ddesg sy’n cefnogi’r fanyleb, gyda ffynonellau a bylchau hysbys.
 
 Cynigion a darlleniadau o ffynonellau cyhoeddus yw’r rhain, nid cyngor clinigol na chyfreithiol. Saesneg yn unig yw’r tudalennau y mae’r dolenni hyn yn mynd iddynt. Darllenwyd y rhan fwyaf o’r ffynonellau fel canlyniadau chwilio, ac mae gan bob tudalen adran "Not verified". Nid oes unrhyw glinigwr na chyfreithiwr wedi’u hadolygu. Caiff y syniadau eu rhestru yn y [cynllun](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/plan.md) a’u dilyn yn y [tasgau](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/tasks.md).
 
@@ -26,7 +26,7 @@ Cynigion a darlleniadau o ffynonellau cyhoeddus yw’r rhain, nid cyngor clinigo
 - [Cyfleuster cam-i-lawr](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/step-down-facility/index.md)
 - [Gwylio ar ffôn symudol](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/mobile-viewability.md)
 
-## Adegau anodd mewn gofal
+## Sefyllfaoedd gofal sensitif
 
 - [Profedigaeth](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/bereavement/index.md)
 - [Cymorth galar i oroeswyr](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/survivor-grief/index.md)

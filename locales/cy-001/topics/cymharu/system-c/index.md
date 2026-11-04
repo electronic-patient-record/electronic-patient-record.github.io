@@ -12,7 +12,7 @@ Mae cynhyrchion System C yn cynnwys EPR CareFlow, Medway gynt, BadgerNet Materni
 
 Mae’r gwerthwr yn nodi acíwt, brys, theatrau, cleifion allanol a fferyllfa. Cryfderau arbenigol yw mamolaeth a newyddenedigol, a gofal cymdeithasol. Ni chanfuwyd iechyd meddwl ar y tudalennau a ddarllenwyd.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | System C | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Mae’r gwerthwr yn nodi acíwt, brys, theatrau, cleifion allanol a fferyllfa. C
 | Rhyngweithredu | Honnir FHIR; safonau data’r GIG | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | Ap Connect (gwerthwr) | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Arhoswch yn gul ac yn gywir, gan fod ehangder yn waith blynyddoedd. Mae angen ei ddadansoddiad peryglon ei hun ar ddiogelwch meddyginiaethau. Mae’r ffaith fod mamolaeth ac oncoleg yn gynhyrchion ar wahân yn awgrymu bod angen eu siapiau data eu hunain ar olygon arbenigedd.
+Dylai’r cwmpas aros yn gul, gan y byddai ehangder tebyg yn cymryd blynyddoedd. Mae angen ei ddadansoddiad peryglon ei hun ar ddiogelwch meddyginiaethau. Mae cynhyrchion mamolaeth ac oncoleg ar wahân yn awgrymu y gallai fod angen eu strwythurau data eu hunain ar olygon arbenigedd.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/system-c/index.md) · [Pob cymhariaeth](@/cymharu/)

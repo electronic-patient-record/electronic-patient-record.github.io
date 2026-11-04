@@ -20,6 +20,7 @@ Rules:
 - **Facts are a dated snapshot.** The status pages in `locales/` are copied from `spec/14-implementation-status.md`, with the date.
 - **No government or NHS theme or branding.** The project is independent and must not look endorsed. The check fails if one ships. `PickerBar`'s default theme list is filtered for this.
 - **Full PickerBar.** The header uses `@lilydesignsystem/svelte-picker-bar` with every picker. Each needs something real behind it: search lands on `/search/`.
+- **Tone: a neutral business analyst.** Plain, descriptive headings and sentences in every language. No slogans, no wordplay, no contrast formulas such as "X, not Y" in headings, no addressing the reader as a friend, no imperative advice on vendor pages.
 - **Promote honestly.** Benefits are goals, written as "designed to". Nothing says the software is safe, proven or better. Features separate built from designed.
 - **Other EPRs:** notes, never rankings. No page says a product is better or worse. Facts come from `spec/<vendor>/index.md` in the source repository, attributed. "Not found in public sources" is never evidence that a product lacks something, so never call it a strength of this project. Leave out ownership and staffing news.
 - **Lily:** use `@lilydesignsystem/*` components; `src/lib/site.css` is for layout; colour comes from theme tokens, except the clinical-use notice, which is fixed so it stays legible.

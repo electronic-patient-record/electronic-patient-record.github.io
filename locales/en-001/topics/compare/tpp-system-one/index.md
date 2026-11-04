@@ -12,7 +12,7 @@ SystmOne is made by The Phoenix Partnership (TPP) in Leeds. It is modular and ce
 
 Primary care is its core market. Community and mental-health modules are in use. The scale of acute adoption was not found.
 
-## Side by side
+## Comparison
 
 | Area | TPP SystmOne | This project today |
 |---|---|---|
@@ -20,8 +20,8 @@ Primary care is its core market. Community and mental-health modules are in use.
 | Interoperability | API by application; sharing per organisation, with a recorded basis | FHIR R4 and R5 reads for three resources; HL7 v2 ADT inbound |
 | Mobile and patient access | Touch-optimised mobile, on and off line (vendor, undated) | Mobile layout and patient portal not built |
 
-## What this project takes from it
+## Implications for this project
 
-Treat sharing as two explicit directions, each with a recorded basis, and test end to end that a recorded preference is honoured, as documented errors in 2018 show. Keep mental-health legal status as a record, not a flag.
+Documented errors in 2018 indicate that a recorded preference should be tested end to end. Sharing could be modelled as two explicit directions, each with a recorded basis, and mental-health legal status as a record and not a flag.
 
 [Read the full note, with sources](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/tpp-system-one/index.md) · [All comparisons](@/compare/)

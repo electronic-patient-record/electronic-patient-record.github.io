@@ -12,7 +12,7 @@ Oracle bought Cerner, founded in 1979, in a deal that closed in June 2022, and r
 
 Acute inpatient care is its core market. Fit for emergency, community, mental health and primary care was not established from the sources read.
 
-## Side by side
+## Comparison
 
 | Area | Oracle Health (Cerner) | This project today |
 |---|---|---|
@@ -20,8 +20,8 @@ Acute inpatient care is its core market. Fit for emergency, community, mental he
 | Interoperability | FHIR R4, with gated enablement | FHIR R4 and R5 reads for three resources; HL7 v2 ADT inbound |
 | Mobile and patient access | Not found in the sources read | Mobile layout and patient portal not built |
 
-## What this project takes from it
+## Implications for this project
 
-A US inspector general reported in 2022 that a routing flaw left orders in an unmonitored queue. An order must never sit where nobody is looking, so this project should test that with destinations nobody owns. Downtime behaviour needs defining early.
+A US inspector general reported in 2022 that a routing flaw left orders in an unmonitored queue. This project should therefore test orders sent to destinations with no owner, and define downtime behaviour early.
 
 [Read the full note, with sources](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/oracle-cerner/index.md) · [All comparisons](@/compare/)

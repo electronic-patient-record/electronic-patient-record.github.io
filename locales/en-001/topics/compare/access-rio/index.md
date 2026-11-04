@@ -12,7 +12,7 @@ Access Rio, previously Servelec Rio, is sold by The Access Group. The vendor say
 
 Mental health is its core market, with the Mental Health Act as a design driver. Community and child health are in scope. Primary care is not its market.
 
-## Side by side
+## Comparison
 
 | Area | Access Rio | This project today |
 |---|---|---|
@@ -20,8 +20,8 @@ Mental health is its core market, with the Mental Health Act as a design driver.
 | Interoperability | Integration Hub (vendor) | FHIR R4 and R5 reads for three resources; HL7 v2 ADT inbound |
 | Mobile and patient access | Field recording with sync (vendor); Mood Diary app | Mobile layout and patient portal not built |
 
-## What this project takes from it
+## Implications for this project
 
-Legal status belongs in a dated record with its authority. Discharge from one team should not close the pathway. One record with several profiles is close to this project’s plan.
+Legal status should be a dated record with its authority. Discharge from one team should not close the pathway. A single record with several profiles is close to this project’s plan.
 
 [Read the full note, with sources](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/access-rio/index.md) · [All comparisons](@/compare/)

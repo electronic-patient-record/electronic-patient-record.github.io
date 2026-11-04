@@ -1,12 +1,12 @@
 # Statws
 
-Beth sy’n bodoli, beth sydd ddim, a faint i ymddiried yn y rhifau.
+Statws adeiladu, statws adolygu a ffigurau’r prosiect.
 
 Ciplun o 4 Tachwedd 2026. Y fersiwn fyw yw’r [statws gweithredu](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/14-implementation-status.md) a gynhyrchir, ac mae’r [log newidiadau](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/CHANGELOG.md) yn dweud beth na wnaeth neu na wiriodd pob newid.
 
-## Yn fyr
+## Crynodeb
 
-Sgaffald yw hwn. Mae cod yn bodoli ar gyfer yr eitemau o dan "Wedi’i adeiladu" ar y [dudalen nodweddion](@/nodweddion/). Nid yw’r rhan fwyaf o’r cofnod clinigol yn bodoli eto.
+Sgaffald yw’r prosiect. Mae cod yn bodoli ar gyfer yr eitemau o dan "Wedi’i adeiladu" ar y [dudalen nodweddion](@/nodweddion/). Nid yw’r rhan fwyaf o’r cofnod clinigol wedi’i adeiladu eto.
 
 ## Diogelwch ac adolygu
 
@@ -16,7 +16,7 @@ Sgaffald yw hwn. Mae cod yn bodoli ar gyfer yr eitemau o dan "Wedi’i adeiladu"
 - Peiriant sy’n ysgrifennu cyfieithiadau nes bydd siaradwr yn eu hadolygu.
 - Mae’r [log peryglon](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/governance/clinical-safety/hazard-log.csv) yn gyhoeddus.
 
-## Rhifau
+## Ffigurau
 
 Wedi’u cyfrif o’r cod ffynhonnell. Mae ffigurau profion yn cyfrif profion a ysgrifennwyd, nid profion sy’n pasio mewn rhediad penodol.
 

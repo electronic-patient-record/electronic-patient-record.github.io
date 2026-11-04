@@ -12,7 +12,7 @@ Sefydlwyd MEDITECH ym 1969 ac mae’n gwmni preifat. Lansiwyd Expanse, ei EHR ar
 
 Ysbytai acíwt a bach neu wledig yw ei brif ôl troed. Mae’r gwerthwr hefyd yn rhestru brys, iechyd meddwl, gofal cartref a chleifion allanol.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | MEDITECH | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Ysbytai acíwt a bach neu wledig yw ei brif ôl troed. Mae’r gwerthwr hefyd yn
 | Rhyngweithredu | US Core R4, SMART a blwch tywod | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | Honiad symudol-yn-gyntaf ar gyfer ffonau nyrsys (gwerthwr) | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Mae angen llwybr lletya hawdd ar safleoedd bach, felly cofnodwch beth sydd ei angen ar y defnydd lleiaf. Mae angen dolenni at ffynonellau a chymeradwyaeth clinigydd ar unrhyw grynodeb a gynhyrchir.
+Efallai y bydd angen opsiwn wedi’i letya ar safleoedd llai, felly dylid dogfennu’r defnydd lleiaf. Byddai angen dolenni at ffynonellau a chymeradwyaeth clinigydd ar unrhyw grynodeb a gynhyrchir.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/meditech/index.md) · [Pob cymhariaeth](@/cymharu/)

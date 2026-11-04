@@ -12,7 +12,7 @@ EMIS makes EMIS Web, EMIS-X and the Patient Access app. Its ownership changed in
 
 Primary care is its core market. Community is a named product. Acute use was not found in the sources read.
 
-## Side by side
+## Comparison
 
 | Area | EMIS | This project today |
 |---|---|---|
@@ -20,8 +20,8 @@ Primary care is its core market. Community is a named product. Acute use was not
 | Interoperability | FHIR through GP Connect, and IM1 | FHIR R4 and R5 reads for three resources; HL7 v2 ADT inbound |
 | Mobile and patient access | EMIS-X Mobile and the Patient Access app | Mobile layout and patient portal not built |
 
-## What this project takes from it
+## Implications for this project
 
-Specify a degraded mode, read-only with a paper fallback, because outages were reported in 2024 and 2026. A letter that fails to arrive must become visible. Record the agreement that a share relies on.
+Outages were reported in 2024 and 2026, so a degraded mode should be specified, with read-only access and a paper fallback. Undelivered letters should be flagged, and the agreement behind each share recorded.
 
 [Read the full note, with sources](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/emis/index.md) · [All comparisons](@/compare/)

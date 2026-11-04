@@ -12,7 +12,7 @@ Caiff Access Rio, Servelec Rio gynt, ei werthu gan The Access Group. Mae’r gwe
 
 Iechyd meddwl yw ei brif farchnad, gyda’r Ddeddf Iechyd Meddwl yn sbarduno’r dyluniad. Mae cymuned ac iechyd plant o fewn y cwmpas. Nid gofal sylfaenol yw ei farchnad.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | Access Rio | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Iechyd meddwl yw ei brif farchnad, gyda’r Ddeddf Iechyd Meddwl yn sbarduno’r
 | Rhyngweithredu | Integration Hub (gwerthwr) | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | Cofnodi yn y maes gyda chysoni (gwerthwr); ap Mood Diary | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Mae statws cyfreithiol yn perthyn mewn cofnod dyddiedig gyda’i awdurdod. Ni ddylai rhyddhau o un tîm gau’r llwybr. Mae un cofnod gyda sawl proffil yn agos at gynllun y prosiect hwn.
+Dylai statws cyfreithiol fod yn gofnod dyddiedig gyda’i awdurdod. Ni ddylai rhyddhau o un tîm gau’r llwybr. Mae un cofnod gyda sawl proffil yn agos at gynllun y prosiect hwn.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/access-rio/index.md) · [Pob cymhariaeth](@/cymharu/)

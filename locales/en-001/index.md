@@ -1,41 +1,41 @@
-# Patient records that show their working
+# Open-source electronic patient record
 
-A free, open-source electronic patient record, built in the open so anyone can check how it works.
+Software for longitudinal patient records, developed in public under open licences.
 
-When a record joins two people, hides a result or loses a referral, someone can be hurt. This project is designing a patient record where every decision can be explained, every access is on the record, and nothing is ever quietly deleted. It is early, and most of it is not built yet. You are welcome to look around, try what exists and help shape the rest.
+The project is developing an electronic patient record (EPR) with a published specification, source code and clinical hazard log. Design requirements include an append-only clinical record, audit of all access, and patient matching that records the reasons for each decision. Most of the planned functionality is not yet built, and the software is not suitable for clinical use.
 
-## Why it is different
+## Design principles
 
-### Nothing is thrown away
+### Append-only clinical record
 
-The clinical record is append-only. A correction makes a new version, and the original stays readable by those allowed to see it.
+A correction creates a new version. The original remains available to authorised readers.
 
-### It explains itself
+### Explainable patient matching
 
-When the patient matcher links two records or refuses to, it says why, field by field. A missing fact is recorded as missing, and never counts as agreement.
+The matcher reports its reasons by field. Missing data is recorded as missing and is not treated as agreement.
 
-### Every access is on the record
+### Audit of all access
 
-Reads are audited as well as writes, with who, what and why, in a trail designed so that tampering shows.
+Reads and writes are both audited, with user, record and purpose. The audit trail is hash-chained so that alteration can be detected.
 
-### Open all the way down
+### Public project documentation
 
-The code, the specification, the research and the clinical hazard log are all public, and each change says what it did not do.
+The code, specification, research and hazard log are public. Each changelog entry states what was not done or verified.
 
-## Start here
+## Where to go next
 
-### New to all this?
+### Overview
 
-Read the [benefits](@/benefits/), then see how it [compares](@/compare/) with other systems.
+See the [benefits](@/benefits/) and the [comparison](@/compare/) with other systems.
 
-### Want to try it?
+### Evaluation
 
-The [tutorial](@/tutorial/) takes you from a fresh download to your first explained match in a few minutes, with made-up data.
+The [tutorial](@/tutorial/) runs a patient match on sample data.
 
-### Want to help?
+### Contribution
 
-The project most needs clinicians and a Clinical Safety Officer. See [how to take part](@/about/).
+The project has open needs for clinicians and a Clinical Safety Officer. See [about](@/about/).
 
-## What it is, today
+## Current status
 
-This is a pre-release scaffold. Parts of it run and are tested, but it is not a working clinical record, and it must not be used to care for anyone. The [status page](@/status/) says exactly what is and is not built.
+The project is a pre-release scaffold. Some components run and have tests, but there is no working clinical record, and the software must not be used for patient care. The [status page](@/status/) lists what is and is not built.

@@ -1,41 +1,41 @@
-# Cofnodion cleifion sy’n dangos eu gwaith
+# Cofnod cleifion electronig cod agored
 
-Cofnod cleifion electronig rhad ac am ddim, cod agored, wedi’i adeiladu yn agored fel y gall unrhyw un wirio sut mae’n gweithio.
+Meddalwedd ar gyfer cofnodion cleifion hydredol, wedi’i datblygu’n gyhoeddus o dan drwyddedau agored.
 
-Pan fo cofnod yn cyfuno dau berson, yn cuddio canlyniad neu’n colli atgyfeiriad, gall rhywun gael ei niweidio. Mae’r prosiect hwn yn dylunio cofnod cleifion lle gellir egluro pob penderfyniad, lle mae pob mynediad ar gofnod, a lle nad oes dim byth yn cael ei ddileu’n dawel. Mae’n gynnar, ac nid yw’r rhan fwyaf ohono wedi’i adeiladu eto. Mae croeso i chi edrych o gwmpas, rhoi cynnig ar yr hyn sy’n bodoli a helpu i lunio’r gweddill.
+Mae’r prosiect yn datblygu cofnod cleifion electronig (EPR) gyda manyleb, cod ffynhonnell a log peryglon clinigol cyhoeddedig. Mae’r gofynion dylunio yn cynnwys cofnod clinigol y gellir ychwanegu ato yn unig, archwilio pob mynediad, a pharu cleifion sy’n cofnodi’r rhesymau dros bob penderfyniad. Nid yw’r rhan fwyaf o’r swyddogaethau a gynlluniwyd wedi’u hadeiladu eto, ac nid yw’r feddalwedd yn addas at ddefnydd clinigol.
 
-## Pam mae’n wahanol
+## Egwyddorion dylunio
 
-### Nid oes dim yn cael ei daflu
+### Cofnod clinigol ychwanegu-yn-unig
 
-Dim ond ychwanegu at y cofnod clinigol y gellir ei wneud. Mae cywiriad yn creu fersiwn newydd, ac mae’r gwreiddiol yn dal yn ddarllenadwy i’r rhai sydd â hawl i’w weld.
+Mae cywiriad yn creu fersiwn newydd. Mae’r gwreiddiol yn parhau ar gael i ddarllenwyr awdurdodedig.
 
-### Mae’n egluro ei hun
+### Paru cleifion y gellir ei egluro
 
-Pan fo’r parwr cleifion yn cysylltu dau gofnod neu’n gwrthod gwneud hynny, mae’n dweud pam, fesul maes. Caiff ffaith goll ei chofnodi fel un goll, ac nid yw byth yn cyfrif fel cytundeb.
+Mae’r parwr yn adrodd ei resymau fesul maes. Caiff data coll ei gofnodi fel data coll ac ni chaiff ei drin fel cytundeb.
 
-### Mae pob mynediad ar gofnod
+### Archwilio pob mynediad
 
-Caiff darllen ei archwilio yn ogystal ag ysgrifennu, gyda phwy, beth a pham, mewn llwybr sydd wedi’i ddylunio fel bod ymyrryd yn dangos.
+Caiff darlleniadau ac ysgrifeniadau eu harchwilio, gyda’r defnyddiwr, y cofnod a’r diben. Mae’r llwybr archwilio wedi’i gadwyno â stwnsh fel y gellir canfod newid.
 
-### Agored yr holl ffordd i lawr
+### Dogfennaeth prosiect gyhoeddus
 
-Mae’r cod, y fanyleb, yr ymchwil a’r log peryglon clinigol i gyd yn gyhoeddus, ac mae pob newid yn dweud beth na wnaeth.
+Mae’r cod, y fanyleb, yr ymchwil a’r log peryglon yn gyhoeddus. Mae pob cofnod yn y log newidiadau yn nodi beth na wnaed neu na wiriwyd.
 
-## Dechrau yma
+## Camau nesaf
 
-### Newydd i hyn i gyd?
+### Trosolwg
 
-Darllenwch am y [buddion](@/buddion/), yna gweld sut mae’n [cymharu](@/cymharu/) â systemau eraill.
+Gweler y [buddion](@/buddion/) a’r [gymhariaeth](@/cymharu/) â systemau eraill.
 
-### Eisiau rhoi cynnig arni?
+### Gwerthuso
 
-Mae’r [tiwtorial](@/tiwtorial/) yn mynd â chi o lawrlwythiad newydd i’ch paru cyntaf wedi’i egluro mewn ychydig funudau, gyda data ffug.
+Mae’r [tiwtorial](@/tiwtorial/) yn rhedeg paru cleifion ar ddata sampl.
 
-### Eisiau helpu?
+### Cyfrannu
 
-Mae’r prosiect angen clinigwyr a Swyddog Diogelwch Clinigol yn bennaf. Gweler [sut i gymryd rhan](@/ynghylch/).
+Mae gan y prosiect anghenion agored am glinigwyr a Swyddog Diogelwch Clinigol. Gweler [ynghylch](@/ynghylch/).
 
-## Beth ydyw, heddiw
+## Statws presennol
 
-Sgaffald cyn-ryddhau yw hwn. Mae rhannau ohono’n rhedeg ac wedi’u profi, ond nid yw’n gofnod clinigol sy’n gweithio, ac ni ddylid ei ddefnyddio i ofalu am unrhyw un. Mae’r [dudalen statws](@/statws/) yn dweud yn union beth sydd wedi’i adeiladu a beth sydd heb ei adeiladu.
+Sgaffald cyn-ryddhau yw’r prosiect. Mae rhai cydrannau’n rhedeg ac mae ganddynt brofion, ond nid oes cofnod clinigol sy’n gweithio, ac ni ddylid defnyddio’r feddalwedd ar gyfer gofal cleifion. Mae’r [dudalen statws](@/statws/) yn rhestru’r hyn sydd wedi’i adeiladu a’r hyn nad yw wedi’i adeiladu.

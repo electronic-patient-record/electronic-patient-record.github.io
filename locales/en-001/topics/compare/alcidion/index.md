@@ -12,7 +12,7 @@ Alcidion Group is listed in Australia. Its main product is Miya Precision, which
 
 Acute inpatient care and emergency flow are its evidenced strengths. Community nursing records and primary care were not established.
 
-## Side by side
+## Comparison
 
 | Area | Alcidion | This project today |
 |---|---|---|
@@ -20,8 +20,8 @@ Acute inpatient care and emergency flow are its evidenced strengths. Community n
 | Interoperability | FHIR-events platform (vendor) | FHIR R4 and R5 reads for three resources; HL7 v2 ADT inbound |
 | Mobile and patient access | Not found in the sources read | Mobile layout and patient portal not built |
 
-## What this project takes from it
+## Implications for this project
 
-Modules bought separately show one way a small supplier can start. Closed-loop thinking applies to results as well as to referrals, and an evaluation should be planned early.
+Separately purchased modules are one possible route to adoption. The closed-loop referral design could also apply to results, and an evaluation should be planned early.
 
 [Read the full note, with sources](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/alcidion/index.md) · [All comparisons](@/compare/)

@@ -12,7 +12,7 @@ Gwneir SystmOne gan The Phoenix Partnership (TPP) yn Leeds. Mae’n fodiwlaidd a
 
 Gofal sylfaenol yw ei brif farchnad. Defnyddir modiwlau cymunedol ac iechyd meddwl. Ni chanfuwyd graddfa’r defnydd acíwt.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | TPP SystmOne | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Gofal sylfaenol yw ei brif farchnad. Defnyddir modiwlau cymunedol ac iechyd medd
 | Rhyngweithredu | API trwy gais; rhannu fesul sefydliad, gyda sail wedi’i chofnodi | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | Symudol wedi’i optimeiddio ar gyfer cyffwrdd, ar-lein ac all-lein (gwerthwr, heb ddyddiad) | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Trinwch rannu fel dau gyfeiriad penodol, pob un â sail wedi’i chofnodi, a phrofwch o’r dechrau i’r diwedd fod dewis a gofnodwyd yn cael ei barchu, fel y mae gwallau a gofnodwyd yn 2018 yn dangos. Cadwch statws cyfreithiol iechyd meddwl fel cofnod, nid baner.
+Mae gwallau a gofnodwyd yn 2018 yn dangos y dylid profi dewis a gofnodwyd o’r dechrau i’r diwedd. Gellid modelu rhannu fel dau gyfeiriad penodol, pob un â sail wedi’i chofnodi, a statws cyfreithiol iechyd meddwl fel cofnod ac nid baner.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/tpp-system-one/index.md) · [Pob cymhariaeth](@/cymharu/)

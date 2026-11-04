@@ -12,7 +12,7 @@ Altera 是 Harris Healthcare 的业务部门，后者于 2022 年收购了 Allsc
 
 急症是 Sunrise 在 NHS 信托中的核心。TouchWorks 是门诊产品。其他场景无法从所读来源确定。
 
-## 并列比较
+## 比较
 
 | 方面 | Altera Digital Health | 本项目现状 |
 |---|---|---|
@@ -20,8 +20,8 @@ Altera 是 Harris Healthcare 的业务部门，后者于 2022 年收购了 Allsc
 | 互操作性 | 某评测网站称支持 FHIR R4；网络合作伙伴关系 | 针对三种资源的 FHIR R4 和 R5 读取；入站 HL7 v2 ADT |
 | 移动端和患者访问 | 在所读来源中未找到 | 移动端布局和患者门户尚未构建 |
 
-## 本项目从中学到什么
+## 对本项目的影响
 
-供应商花了数十年才达到这样的广度，所以要保持专注并如实说明。要把 AI 起草的笔记视为临床风险功能，写入危害日志，并使用单独的来源状态。
+供应商达到类似广度用了数十年，因此范围应保持聚焦。AI 起草的笔记应视为临床风险功能，写入危害日志，并使用单独的来源状态。
 
 [阅读完整笔记及来源（英文）](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/altera/index.md) · [全部比较](@/比较/)

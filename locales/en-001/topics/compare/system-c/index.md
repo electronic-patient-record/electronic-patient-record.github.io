@@ -12,7 +12,7 @@ System C’s products include the CareFlow EPR, formerly Medway, BadgerNet Mater
 
 The vendor states acute, emergency, theatres, outpatients and pharmacy. Maternity and neonatal, and social care, are specialist strengths. Mental health was not found on the pages read.
 
-## Side by side
+## Comparison
 
 | Area | System C | This project today |
 |---|---|---|
@@ -20,8 +20,8 @@ The vendor states acute, emergency, theatres, outpatients and pharmacy. Maternit
 | Interoperability | FHIR claimed; NHS data standards | FHIR R4 and R5 reads for three resources; HL7 v2 ADT inbound |
 | Mobile and patient access | Connect app (vendor) | Mobile layout and patient portal not built |
 
-## What this project takes from it
+## Implications for this project
 
-Stay narrow and correct, since breadth is years of work. Medicines safety needs its own hazard analysis. Maternity and oncology being separate products suggests specialty views need their own data shapes.
+Scope should stay narrow, as comparable breadth would take years. Medicines safety requires its own hazard analysis. Separate maternity and oncology products suggest that specialty views may need their own data structures.
 
 [Read the full note, with sources](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/system-c/index.md) · [All comparisons](@/compare/)

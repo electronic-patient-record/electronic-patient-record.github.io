@@ -12,7 +12,7 @@ Gwneir TrakCare gan InterSystems, cwmni preifat yn Boston, ac mae wedi’i adeil
 
 Gofal acíwt a chleifion allanol yw ei graidd. Adroddir defnydd iechyd meddwl yn yr Alban ac Iwerddon. Ni chanfuwyd cymuned na gofal sylfaenol.
 
-## Ochr yn ochr
+## Cymhariaeth
 
 | Maes | InterSystems TrakCare | Y prosiect hwn heddiw |
 |---|---|---|
@@ -20,8 +20,8 @@ Gofal acíwt a chleifion allanol yw ei graidd. Adroddir defnydd iechyd meddwl yn
 | Rhyngweithredu | FHIR, SMART on FHIR a phroffiliau’r GIG (gwerthwr) | Darlleniadau FHIR R4 ac R5 ar gyfer tri adnodd; HL7 v2 ADT i mewn |
 | Symudol a mynediad cleifion | Honiad symudol-yn-gyntaf (gwerthwr) | Cynllun symudol a phorth cleifion heb eu hadeiladu |
 
-## Beth mae’r prosiect hwn yn ei gymryd ohono
+## Goblygiadau i’r prosiect hwn
 
-Roedd anawsterau mynd yn fyw a adroddwyd yn canolbwyntio ar ansawdd data ac adrodd amseroedd aros, felly profwch ddata mudo yn gynnar. Mae cyflwyno bwrdd wrth fwrdd yn yr Alban yn fodel ar gyfer cam wrth gam yn ôl lleoliad.
+Roedd anawsterau mynd yn fyw a adroddwyd yn canolbwyntio ar ansawdd data ac adrodd amseroedd aros, felly dylid profi data mudo yn gynnar. Mae cyflwyno bwrdd wrth fwrdd yn yr Alban yn un model ar gyfer cam wrth gam yn ôl lleoliad.
 
 [Darllen y nodyn llawn, gyda ffynonellau (Saesneg)](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/intersystems-trakcare/index.md) · [Pob cymhariaeth](@/cymharu/)

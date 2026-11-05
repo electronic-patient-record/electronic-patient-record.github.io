@@ -48,7 +48,8 @@ function read(locale: string, dir: string, slug: string, name: string): Page {
 		subtitle: plain(marked.parseInline(subtitle, { async: false })),
 		intro: marked.parse(intro, { async: false }),
 		html,
-		text: plain(html)
+		// Search reads this, so it holds everything on the page, not only the sections.
+		text: plain(`${subtitle} ${marked.parse(intro, { async: false })} ${html}`)
 	};
 }
 

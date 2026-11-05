@@ -24,7 +24,11 @@ Pob darlleniad ac ysgrifeniad, mewn llwybr a warchodir gan sbardunau cronfa ddat
 
 ### Data clinigol cychwynnol
 
-Alergeddau, arsylwadau, lluniau cleifion a cheisiadau am ddiwygiad.
+Alergeddau, arsylwadau, lluniau cleifion a cheisiadau am ddiwygiad. Mae arwyddion hanfodol yn dangos pryd y cawsant eu mesur a phryd y cawsant eu hysgrifennu.
+
+### Adroddiadau am farwolaeth
+
+Caiff marwolaeth ei storio fel adroddiad gyda ffynhonnell a rheswm, a dim ond person all ei gadarnhau neu ei dynnu’n ôl. Mae adroddiad yn dal digwyddiadau allanol yn ôl ac yn atal mynediad dirprwy tra bydd yn sefyll. Nid oes clinigwr na pherson mewn profedigaeth wedi adolygu hyn.
 
 ### Atgyfeiriadau dolen gaeedig
 

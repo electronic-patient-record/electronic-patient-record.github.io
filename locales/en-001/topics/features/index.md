@@ -24,7 +24,11 @@ Every read and write, in a trail protected by database triggers and verifiable b
 
 ### Initial clinical data
 
-Allergies, observations, patient photos, and amendment requests.
+Allergies, observations, patient photos, and amendment requests. Vital signs show when each was measured and when it was written.
+
+### Reports of death
+
+A death is stored as a report with a source and a reason, and only a person can confirm or withdraw it. A report holds outbound events and stops proxy access while it stands. No clinician or bereaved person has reviewed this.
 
 ### Closed-loop referrals
 

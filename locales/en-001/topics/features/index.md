@@ -28,7 +28,11 @@ Allergies, observations, patient photos, and amendment requests. Vital signs sho
 
 ### Reports of death
 
-A death is stored as a report with a source and a reason, and only a person can confirm or withdraw it. A report holds outbound events and stops proxy access while it stands. No clinician or bereaved person has reviewed this.
+A death is stored as a report with a source and a reason, and only a person can confirm or withdraw it. A report holds outbound events and stops proxy access while it stands, and a confirmed death stops the patient's own login. No clinician or bereaved person has reviewed this.
+
+### Needs and reasonable adjustments
+
+What a person needs in order to use care, such as an interpreter, large print or step-free access, from a fixed list with a date to check it again. It shows in the banner, staff record it, patients see and correct their own, and it is available as a FHIR Flag. It informs staff and changes nothing by itself. No clinician or disabled person has reviewed this.
 
 ### Closed-loop referrals
 

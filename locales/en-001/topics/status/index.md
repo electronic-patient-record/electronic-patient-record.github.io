@@ -23,13 +23,13 @@ Counted from the source tree. Test figures count tests written, not tests passin
 | Fact | Value |
 |---|---|
 | Service version | 0.1.0 |
-| Matcher version | 0.6.0 |
+| Matcher version | 0.7.0 |
 | User interface version | 0.1.0 |
-| Database migrations | 25 |
-| Route registrations | 74 |
-| Service tests | 612, plus 167 that need a database |
+| Database migrations | 26 |
+| Route registrations | 79 |
+| Service tests | 631, plus 168 that need a database |
 | Matcher tests | 110 |
-| User interface unit tests | 260 |
-| User interface end-to-end tests | 92 |
-| Tasks done | 65 |
-| Tasks open | 326 |
+| User interface unit tests | 300 |
+| User interface end-to-end tests | 95 |
+| Tasks done | 69 |
+| Tasks open | 328 |

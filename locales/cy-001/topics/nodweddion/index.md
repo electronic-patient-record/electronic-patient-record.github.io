@@ -28,7 +28,11 @@ Alergeddau, arsylwadau, lluniau cleifion a cheisiadau am ddiwygiad. Mae arwyddio
 
 ### Adroddiadau am farwolaeth
 
-Caiff marwolaeth ei storio fel adroddiad gyda ffynhonnell a rheswm, a dim ond person all ei gadarnhau neu ei dynnu’n ôl. Mae adroddiad yn dal digwyddiadau allanol yn ôl ac yn atal mynediad dirprwy tra bydd yn sefyll. Nid oes clinigwr na pherson mewn profedigaeth wedi adolygu hyn.
+Caiff marwolaeth ei storio fel adroddiad gyda ffynhonnell a rheswm, a dim ond person all ei gadarnhau neu ei dynnu’n ôl. Mae adroddiad yn dal digwyddiadau allanol yn ôl ac yn atal mynediad dirprwy tra bydd yn sefyll, ac mae marwolaeth wedi’i chadarnhau yn atal mewngofnodi’r claf ei hun. Nid oes clinigwr na pherson mewn profedigaeth wedi adolygu hyn.
+
+### Anghenion ac addasiadau rhesymol
+
+Yr hyn sydd ei angen ar berson er mwyn defnyddio gofal, fel dehonglydd, print bras neu fynediad heb risiau, o restr sefydlog gyda dyddiad i’w wirio eto. Mae’n ymddangos yn y faner, mae staff yn ei gofnodi, mae cleifion yn gweld ac yn cywiro eu rhai eu hunain, ac mae ar gael fel FHIR Flag. Mae’n hysbysu staff ac nid yw’n newid dim ar ei ben ei hun. Nid oes clinigwr na pherson anabl wedi adolygu hyn.
 
 ### Atgyfeiriadau dolen gaeedig
 

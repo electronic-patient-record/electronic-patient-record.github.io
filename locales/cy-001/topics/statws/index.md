@@ -23,13 +23,13 @@ Wedi’u cyfrif o’r cod ffynhonnell. Mae ffigurau profion yn cyfrif profion a 
 | Ffaith | Gwerth |
 |---|---|
 | Fersiwn y gwasanaeth | 0.1.0 |
-| Fersiwn y parwr | 0.6.0 |
+| Fersiwn y parwr | 0.7.0 |
 | Fersiwn y rhyngwyneb | 0.1.0 |
-| Mudiadau cronfa ddata | 25 |
-| Cofrestriadau llwybr | 74 |
-| Profion y gwasanaeth | 612, a 167 arall sydd angen cronfa ddata |
+| Mudiadau cronfa ddata | 26 |
+| Cofrestriadau llwybr | 79 |
+| Profion y gwasanaeth | 631, a 168 arall sydd angen cronfa ddata |
 | Profion y parwr | 110 |
-| Profion uned y rhyngwyneb | 260 |
-| Profion pen-i-ben y rhyngwyneb | 92 |
-| Tasgau wedi’u gwneud | 65 |
-| Tasgau ar agor | 326 |
+| Profion uned y rhyngwyneb | 300 |
+| Profion pen-i-ben y rhyngwyneb | 95 |
+| Tasgau wedi’u gwneud | 69 |
+| Tasgau ar agor | 328 |

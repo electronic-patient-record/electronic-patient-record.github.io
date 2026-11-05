@@ -28,7 +28,7 @@ Allergies, observations, patient photos, and amendment requests. Vital signs sho
 
 ### Reports of death
 
-A death is stored as a report with a source and a reason, and only a person can confirm or withdraw it. A report holds outbound events and stops proxy access while it stands, and a confirmed death stops the patient's own login. No clinician or bereaved person has reviewed this.
+A death is stored as a report with a source and a reason, and only a person can confirm or withdraw it. A report holds outbound events while it stands, and a confirmed death stops proxy access and the patient's own login. No clinician or bereaved person has reviewed this.
 
 ### Needs and reasonable adjustments
 

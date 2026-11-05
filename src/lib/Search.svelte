@@ -19,11 +19,19 @@
 		ready = true;
 	});
 
+	// Arabic is usually typed without vowel marks, and with one form of alef; the page text may have either.
+	const fold = (text: string) =>
+		text
+			.normalize('NFC')
+			.toLowerCase()
+			.replace(/[\u064B-\u065F\u0670]/g, '')
+			.replace(/[\u0622\u0623\u0625]/g, '\u0627');
+
 	const results = $derived.by(() => {
-		const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+		const terms = fold(query).split(/\s+/).filter(Boolean);
 		if (terms.length === 0) return [];
 		return index.filter((e: { title: string; text: string }) => {
-			const haystack = `${e.title} ${e.text}`.toLowerCase();
+			const haystack = fold(`${e.title} ${e.text}`);
 			return terms.every((term) => haystack.includes(term));
 		});
 	});

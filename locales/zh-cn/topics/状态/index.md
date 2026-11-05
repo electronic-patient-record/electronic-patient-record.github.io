@@ -2,7 +2,7 @@
 
 构建状态、审查状态和项目数据。
 
-2026 年 11 月 4 日的快照。最新版本是自动生成的[实现状态](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/14-implementation-status.md)，[变更日志](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/CHANGELOG.md)说明每项更改未做或未验证的内容。
+2026 年 11 月 5 日的快照。最新版本是自动生成的[实现状态](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/spec/14-implementation-status.md)，[变更日志](https://github.com/electronic-patient-record/electronic-patient-record/blob/main/CHANGELOG.md)说明每项更改未做或未验证的内容。
 
 ## 概要
 
@@ -25,11 +25,11 @@
 | 服务版本 | 0.1.0 |
 | 匹配器版本 | 0.6.0 |
 | 用户界面版本 | 0.1.0 |
-| 数据库迁移 | 24 |
-| 路由注册 | 70 |
-| 服务测试 | 565 项，另有 159 项需要数据库 |
-| 匹配器测试 | 105 |
-| 用户界面单元测试 | 245 |
-| 用户界面端到端测试 | 89 |
-| 已完成任务 | 52 |
-| 待完成任务 | 339 |
+| 数据库迁移 | 25 |
+| 路由注册 | 74 |
+| 服务测试 | 612 项，另有 167 项需要数据库 |
+| 匹配器测试 | 110 |
+| 用户界面单元测试 | 260 |
+| 用户界面端到端测试 | 92 |
+| 已完成任务 | 65 |
+| 待完成任务 | 326 |

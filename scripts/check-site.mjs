@@ -13,7 +13,7 @@ const files = walk('build');
 const pages = files.filter((f) => f.endsWith('.html'));
 const titles = new Map();
 
-const NOTICE = /not for clinical use|nid at ddefnydd clinigol|不得用于临床/i;
+const NOTICE = /not for clinical use|nid at ddefnydd clinigol|不得用于临床|ليس للاستخدام السريري|नैदानिक उपयोग के लिए नहीं/i;
 for (const page of pages) {
 	const html = readFileSync(page, 'utf8');
 	if (!NOTICE.test(html)) problems.push(`${page}: no clinical-use notice`);
@@ -21,12 +21,13 @@ for (const page of pages) {
 	const title = html.match(/<title>(.*?)<\/title>/)?.[1];
 	if (!title) problems.push(`${page}: no title`);
 	const locale = page.match(/locales\/([^/]+)/)?.[1];
-	const copy = locale === 'cy-001' || locale === 'zh-001';
+	const copy = locale === 'cy-001' || locale === 'zh-001' || locale === 'hi-001';
 	if (title && !copy && !page.includes('compare/') && page !== 'build/index.html') {
 		if (titles.has(title) && !/en-001/.test(titles.get(title))) problems.push(`${page}: same title as ${titles.get(title)}`);
 		titles.set(title, page);
 	}
-	if (html.includes('%epr.lang%')) problems.push(`${page}: language placeholder left in`);
+	if (html.includes('%epr.lang%') || html.includes('%epr.dir%')) problems.push(`${page}: language placeholder left in`);
+	if (!html.includes(`dir="${page.includes('/ar-') ? 'rtl' : 'ltr'}"`)) problems.push(`${page}: wrong text direction`);
 	if (locale && !html.match(new RegExp(`<html lang="${locale}"`, 'i'))) problems.push(`${page}: wrong html lang`);
 	for (const [, href] of html.matchAll(/href="(\/[^"#?]*)/g)) {
 		if (href.startsWith('//')) continue;
@@ -53,7 +54,7 @@ for (const code of readdirSync('locales')) {
 }
 const total = readdirSync('locales').length;
 for (const [id, count] of ids) if (count !== total) problems.push(`peer ${id.trim()}: in ${count} of ${total} locales`);
-for (const [a, b] of [['cy-gb', 'cy-001'], ['zh-cn', 'zh-001']]) {
+for (const [a, b] of [['cy-gb', 'cy-001'], ['zh-cn', 'zh-001'], ['hi-in', 'hi-001']]) {
 	for (const file of walk(join('locales', a)).filter((f) => f.endsWith('index.md'))) {
 		const other = file.replace(a, b);
 		if (!existsSync(other) || readFileSync(file, 'utf8') !== readFileSync(other, 'utf8')) problems.push(`${other}: differs from ${file}`);
@@ -72,7 +73,7 @@ for (const file of files) {
 
 // The clinical-use notice must reach the browser in every locale.
 const scripts = files.filter((f) => f.endsWith('.js')).map((f) => readFileSync(f, 'utf8')).join('\n');
-for (const notice of ['Nid at ddefnydd clinigol', '不得用于临床']) {
+for (const notice of ['Nid at ddefnydd clinigol', '不得用于临床', 'ليس للاستخدام السريري', 'नैदानिक उपयोग के लिए नहीं']) {
 	if (!scripts.includes(notice)) problems.push(`the notice "${notice}" is not in the built scripts`);
 }
 

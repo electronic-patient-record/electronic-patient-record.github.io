@@ -24,7 +24,7 @@
 	</p>
 	<p class="translations">
 		{t.translations}:
-		{#each TRANSLATIONS as item, i (item.code)}<a href={`/locales/${item.code}/`} lang={item.code}>{item.name}</a
+		{#each TRANSLATIONS as item, i (item.code)}<bdi><a href={`/locales/${item.code}/`} lang={item.code}>{item.name}</a></bdi
 			>{i < TRANSLATIONS.length - 1 ? ', ' : ''}{/each}
 	</p>
 </div>

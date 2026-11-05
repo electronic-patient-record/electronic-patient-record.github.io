@@ -13,4 +13,4 @@
 - [Sitemap](https://electronic-patient-record.github.io/sitemap.xml)
 - [Source](https://github.com/electronic-patient-record/electronic-patient-record): the code and specification
 
-Also in Welsh (/locales/cy-gb/, /locales/cy-001/) and Mandarin in Simplified Chinese (/locales/zh-cn/, /locales/zh-001/), machine-written and not reviewed by a speaker.
+Also in Welsh (/locales/cy-gb/, /locales/cy-001/), Mandarin in Simplified Chinese (/locales/zh-cn/, /locales/zh-001/), Arabic (/locales/ar-001/) and Hindi (/locales/hi-in/, /locales/hi-001/), machine-written and not reviewed by a speaker.

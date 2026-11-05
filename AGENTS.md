@@ -24,5 +24,5 @@ Rules:
 - **Promote honestly.** Benefits are goals, written as "designed to". Nothing says the software is safe, proven or better. Features separate built from designed.
 - **Other EPRs:** notes, never rankings. No page says a product is better or worse. Facts come from `spec/<vendor>/index.md` in the source repository, attributed. "Not found in public sources" is never evidence that a product lacks something, so never call it a strength of this project. Leave out ownership and staffing news.
 - **Lily:** use `@lilydesignsystem/*` components; `src/lib/site.css` is for layout; colour comes from theme tokens, except the clinical-use notice, which is fixed so it stays legible.
-- **Locales:** follow [`spec/locale/index.md`](spec/locale/index.md). Content is Markdown in `locales/`. A text change goes in all three languages, then `cy-gb` is copied to `cy-001` and `zh-cn` to `zh-001`. Never claim a translation is reviewed. Work serially, not with subagents.
+- **Locales:** follow [`spec/locale/index.md`](spec/locale/index.md). Content is Markdown in `locales/`. A text change goes in all five languages, then `cy-gb` is copied to `cy-001`, `zh-cn` to `zh-001` and `hi-in` to `hi-001`. Never claim a translation is reviewed. Work serially, not with subagents.
 - Use Svelte's `style:` directive rather than inline `style=""`. Use pnpm.

@@ -5,13 +5,18 @@
 	import { AnnouncementBanner, Footer, Header, SkipLink } from '@lilydesignsystem/svelte-headless';
 	import PickerBar from '@lilydesignsystem/svelte-picker-bar';
 	import { ui } from '#lib/i18n.ts';
-	import { LOCALE_LABELS, LOCALES } from '#lib/locales.ts';
+	import { htmlDir, htmlLang, LOCALE_LABELS, LOCALES } from '#lib/locales.ts';
 	import { REPO } from '#lib/site.ts';
 	import { themes } from '#lib/themes.ts';
 
 	let { children, data } = $props();
 
 	const t = $derived(ui(data.locale));
+	// A prerendered page has these in its HTML. Moving between locales in the browser must set them too.
+	$effect(() => {
+		document.documentElement.lang = htmlLang(data.locale);
+		document.documentElement.dir = htmlDir(data.locale);
+	});
 	const links = $derived([
 		...data.nav.map((item) => ({ href: item.href, label: t.nav[item.name] })),
 		{ href: data.researchHref, label: t.nav.research }

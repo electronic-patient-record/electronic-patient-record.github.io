@@ -9,16 +9,21 @@
 		/>
 		<link rel="stylesheet" id="lily-theme" data-lily-theme-picker="theme" href="/themes/light.css" />
 		<script>
-			// Apply a stored theme and text size before first paint. Keys match the pickers in +layout.svelte.
+			// Apply a stored theme and text size before first paint. Keys match the pickers in +layout.svelte; both are
+			// in localStorage, written only when the visitor chooses (the privacy page lists them). "system", or no
+			// choice, follows the device's light or dark setting, as the theme picker does once it runs.
 			(function () {
 				try {
 					var theme = localStorage.getItem('epr-theme');
-					if (theme && /^[a-z-]+$/.test(theme)) {
+					if (!theme || theme === 'system') {
+						theme = window.matchMedia && matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+					}
+					if (/^[a-z-]+$/.test(theme)) {
 						document.documentElement.dataset.theme = theme;
 						document.getElementById('lily-theme').href = '/themes/' + theme + '.css';
 					}
 					var size = localStorage.getItem('epr-text-size');
-					if (size) document.documentElement.dataset.textSize = size;
+					if (size && /^[a-z-]+$/.test(size)) document.documentElement.dataset.textSize = size;
 				} catch (e) {
 					// Storage unavailable: keep the defaults.
 				}

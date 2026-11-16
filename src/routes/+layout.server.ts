@@ -15,6 +15,7 @@ export const load = ({ params, route }) => {
 		nav: NAV.map((name) => ({ name, href: byName(locale, name).href })),
 		searchHref: byName(locale, 'search').href,
 		researchHref: byName(locale, 'research').href,
+		privacyHref: byName(locale, 'privacy').href,
 		tutorialHref: byName(locale, 'tutorial').href,
 		featuresHref: byName(locale, 'features').href,
 		peers: page ? peers(page) : {}

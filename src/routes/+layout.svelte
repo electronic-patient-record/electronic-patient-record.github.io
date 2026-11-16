@@ -42,6 +42,34 @@
 		}
 	]);
 
+	// What this site keeps in the visitor's browser (the privacy page lists it): the theme and the text size they chose,
+	// in localStorage, never a cookie, never sent anywhere. ThemePicker can keep a choice in localStorage or a cookie
+	// (`storageKey`, `cookieName`); a static site has no server to read a cookie, so it is off. The theme picker writes
+	// only when the choice changes. The text-size picker would also write its default on first load, so it is given
+	// no key: the stored size is read here, and kept only when the visitor changes it (its first `onChange` is the
+	// size it applied on load).
+	const THEME_KEY = 'epr-theme';
+	const TEXT_SIZE_KEY = 'epr-text-size';
+	function readTextSize(): string {
+		try {
+			return localStorage.getItem(TEXT_SIZE_KEY) ?? '';
+		} catch {
+			return '';
+		}
+	}
+	const textSize = typeof window === 'undefined' ? '' : readTextSize();
+	let appliedSize = '';
+	function keepTextSize(size: string) {
+		const first = appliedSize === '';
+		appliedSize = size;
+		if (first) return;
+		try {
+			localStorage.setItem(TEXT_SIZE_KEY, size);
+		} catch {
+			// Storage refused: the size still applies to this page.
+		}
+	}
+
 	// The picker reports the locale it applied, including the one this page is already in.
 	function changeLocale(code: string) {
 		if (code === data.locale) return;
@@ -79,7 +107,11 @@
 			searchProps={{ action: data.searchHref, placeholder: t.pickers.search }}
 			themesUrl="/themes/"
 			{themes}
-			themeProps={{ defaultValue: 'light', storageKey: 'epr-theme', detectFromSystem: true }}
+			themeProps={{
+				storageKey: THEME_KEY,
+				cookieName: '',
+				systemLabel: t.pickers.themeSystem
+			}}
 			locales={LOCALES}
 			localeProps={{
 				value: data.locale,
@@ -88,7 +120,7 @@
 				onChange: changeLocale
 			}}
 			timeZoneProps={{ locale: data.locale }}
-			textSizeProps={{ storageKey: 'epr-text-size' }}
+			textSizeProps={{ value: textSize, onChange: keepTextSize }}
 			{shareTargets}
 			shareProps={{ copyLabel: t.pickers.copy, copiedLabel: t.pickers.copied }}
 		/>
@@ -104,6 +136,7 @@
 		<p>
 			<a href={REPO}>{t.footer.source}</a> ·
 			<a href={data.researchHref}>{t.nav.research}</a> ·
+			<a href={data.privacyHref}>{t.footer.privacy}</a> ·
 			<a href={`${REPO}/blob/main/LICENSE.md`}>{t.footer.licence}</a>
 		</p>
 		<p>{t.footer.independent}</p>

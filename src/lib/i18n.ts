@@ -25,6 +25,7 @@ const en = {
 		searchInput: 'Search terms',
 		searchSubmit: 'Search',
 		theme: 'Colour theme',
+		themeSystem: 'Follow this device',
 		locale: 'Language',
 		timeZone: 'Time zone',
 		textSize: 'Text size',
@@ -36,6 +37,7 @@ const en = {
 	footer: {
 		source: 'Source on GitHub',
 		licence: 'Licence',
+		privacy: 'Privacy',
 		independent: 'Independent project. Not affiliated with or endorsed by the NHS, any government or any EPR supplier. Not for clinical use.'
 	},
 	search: {
@@ -75,6 +77,7 @@ const cy: Ui = {
 		searchInput: 'Termau chwilio',
 		searchSubmit: 'Chwilio',
 		theme: 'Thema lliw',
+		themeSystem: 'Dilyn y ddyfais hon',
 		locale: 'Iaith',
 		timeZone: 'Cylchfa amser',
 		textSize: 'Maint y testun',
@@ -86,6 +89,7 @@ const cy: Ui = {
 	footer: {
 		source: 'Y cod ar GitHub',
 		licence: 'Trwydded',
+		privacy: 'Preifatrwydd',
 		independent: 'Prosiect annibynnol. Nid yw’n gysylltiedig â’r GIG, unrhyw lywodraeth nac unrhyw gyflenwr EPR, ac nid oes yr un ohonynt yn ei gymeradwyo. Nid at ddefnydd clinigol.'
 	},
 	search: {
@@ -123,6 +127,7 @@ const zh: Ui = {
 		searchInput: '搜索词',
 		searchSubmit: '搜索',
 		theme: '颜色主题',
+		themeSystem: '跟随此设备',
 		locale: '语言',
 		timeZone: '时区',
 		textSize: '文字大小',
@@ -134,6 +139,7 @@ const zh: Ui = {
 	footer: {
 		source: 'GitHub 上的源代码',
 		licence: '许可证',
+		privacy: '隐私',
 		independent: '独立项目。与 NHS、任何政府或任何电子病历供应商均无关联，也未获其认可。不得用于临床。'
 	},
 	search: {
@@ -171,6 +177,7 @@ const ar: Ui = {
 		searchInput: 'كلمات البحث',
 		searchSubmit: 'بحث',
 		theme: 'سمة الألوان',
+		themeSystem: 'اتباع إعداد هذا الجهاز',
 		locale: 'اللغة',
 		timeZone: 'المنطقة الزمنية',
 		textSize: 'حجم النص',
@@ -182,6 +189,7 @@ const ar: Ui = {
 	footer: {
 		source: 'المصدر على GitHub',
 		licence: 'الترخيص',
+		privacy: 'الخصوصية',
 		independent: 'مشروع مستقل. لا ينتسب إلى NHS أو أي حكومة أو أي مورّد لسجلات المرضى الإلكترونية، ولا يحظى بتأييد أي منها. ليس للاستخدام السريري.'
 	},
 	search: {
@@ -219,6 +227,7 @@ const hi: Ui = {
 		searchInput: 'खोज शब्द',
 		searchSubmit: 'खोजें',
 		theme: 'रंग थीम',
+		themeSystem: 'इस डिवाइस की सेटिंग के अनुसार',
 		locale: 'भाषा',
 		timeZone: 'समय क्षेत्र',
 		textSize: 'पाठ का आकार',
@@ -230,6 +239,7 @@ const hi: Ui = {
 	footer: {
 		source: 'GitHub पर स्रोत',
 		licence: 'लाइसेंस',
+		privacy: 'गोपनीयता',
 		independent: 'स्वतंत्र परियोजना। NHS, किसी सरकार या किसी EPR आपूर्तिकर्ता से संबद्ध या उनके द्वारा समर्थित नहीं। नैदानिक उपयोग के लिए नहीं।'
 	},
 	search: {

@@ -1,2 +1,8 @@
 allowBuilds:
   esbuild: true
+minimumReleaseAgeExclude:
+  - "@lilydesignsystem/svelte-theme-picker@0.4.0"
+# svelte-picker-bar 0.6.0 asks for svelte-theme-picker ^0.3.0; 0.4.0 adds the "Follow this device" choice and the
+# choice of storage (localStorage or a cookie), with the same props otherwise. Remove when the bar asks for ^0.4.
+overrides:
+  "@lilydesignsystem/svelte-theme-picker": ^0.4.0
